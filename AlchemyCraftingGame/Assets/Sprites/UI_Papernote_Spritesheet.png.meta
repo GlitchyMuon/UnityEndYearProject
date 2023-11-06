@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -106,9 +106,2421 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c92ce2c48d5b64c8a08dd0a8883ff8
+      internalID: 412069153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392ae0adba912b649b26b3e97596b773
+      internalID: -253089338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf73479f88e48749869cdb32f16182e
+      internalID: 378187153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eda9f1d85157b4eabaff3c738ed93c
+      internalID: 1916155639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a82f3c7d0020c040a313299df379813
+      internalID: -764453742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 352
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d185683777fdbb43b97920ef1ca75c5
+      internalID: 1595178353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 352
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7491baafc421e43897b76b6c582afe
+      internalID: -932271787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 416
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465586a206401ad49bafa175ff531d42
+      internalID: -601675578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf71748d44bfd5e41859085faef73670
+      internalID: 2032854988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58aee8a5bbf2c4f833f0d17fa59940
+      internalID: -463823225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae5f94f44ff2f4b80aa80f64373609
+      internalID: 1369462605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ccbee98367784084ccc2ef69f77a6
+      internalID: -935919088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecedac5c8a08d041b395f5a38d8c978
+      internalID: -1876211072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e41b7453bf4cb54393fa7c0d4c190f4
+      internalID: 796574364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 430
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae4b29b60d11ca45bd90c59e3527e16
+      internalID: -619313536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280afe25a70033746a4a432f642979b7
+      internalID: 800695624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c3ceff22f5d30419f279b32047e2e5
+      internalID: 202765822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70053ad49d4db354885de9774a038bff
+      internalID: 1450749646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6d5eed824b96447a5e28cf34ea4a6f
+      internalID: -1864038777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e08835e9d0cb71418ece3eaa3da4e63
+      internalID: 942350126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e220d7d9af1b5eb43aebcdf1fc2464b5
+      internalID: 1918519004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 398
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02536d610d515c4a80b4fe6e72b9fc8
+      internalID: 1609207534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 352
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db7d3919a0b63949a7a533e15fb336f
+      internalID: 1998873323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ab10f12cde4b343a6d901efc2e02b4
+      internalID: 1426283776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a215e3baf508e3648a653ee19f732dbe
+      internalID: -539034684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee632e103553c8418dbc59833db453f
+      internalID: 1980371353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b97dc766099fd49a345f664e742e14
+      internalID: -800765977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b6010e4dc7999479b65bf3ab5255d0
+      internalID: -561119038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61866a82cebca8749be95ae8b1eabc06
+      internalID: 1286423756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 366
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f149031a605ea3c4d92807ae08061e1e
+      internalID: -720329444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd758c28fdabcf4394fd26021384eb2
+      internalID: -157782091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaeb129b3712ec4d8b7707e5be15cc9
+      internalID: 386634279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c0191f646ad243bdf6011a60bc5be
+      internalID: -2114136561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e36646e0b07984f99fd3774e3a2d92
+      internalID: 778034190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935a3bdb2b5a4024ca9db85af8aabb8d
+      internalID: -411943404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b6fbb99ff6c4e408747628ef881492
+      internalID: -510209447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 299
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594575000cc6e1740908bed9cac8d705
+      internalID: 46342405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 299
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4564c06b0c5894f49a6a293cbf21b541
+      internalID: -1170933502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 299
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5346a098e7cff2d42ab0602d3384f055
+      internalID: 1282278942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 299
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312a19f6fd2ad5f47a07572b4537fc79
+      internalID: 1698298551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 299
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468163f382fcbba43976a8eb45d44d80
+      internalID: 1517781447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 267
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62180b35b0b7b1047a1af5eb9c06fb92
+      internalID: -187882233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 267
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a852352ba11694dbec8ab768d25018
+      internalID: -715559816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 266
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c340558a876870d48a83cbfb70b1f995
+      internalID: 1771682011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 269
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0557a1d35b0f84dbb11f9dd9581626
+      internalID: -1677373314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 269
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5172aaf4c5cbb4888013edc3019880
+      internalID: -318646522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 270
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26a2e3737ee0d440b46b9175533ab31
+      internalID: -483573451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 226
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebf95bf1ed558445b1b42948f121a37
+      internalID: -1939128979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 226
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ad012f4b016874a9ce3bd169319f00
+      internalID: -598092935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 226
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde02000981b6f34397e8103dd7cb34c
+      internalID: -1795304486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 226
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417ada0cfa33e6244a164e1d6eb93ed7
+      internalID: 1676792169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 229
+        width: 23
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2e1286f0e96d047bb0c29ad2f69c6d
+      internalID: -1013690142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 234
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab245109330b3548beafd88f25dbb8d
+      internalID: -1991123557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 229
+        width: 23
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0484764e452903e4f889bb7a5adbcb7d
+      internalID: 783162922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 232
+        width: 17
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bf2296836a7d44cadb99d07539bd01
+      internalID: -1669525763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f538237faca5839429aef92d1402ccd5
+      internalID: 1366976554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733a9e370abbb5c4bb9251c3272c0d91
+      internalID: -458818378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 234
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603f33c84f2e6ac4d8f8f7991e302144
+      internalID: -1210433646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 235
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581293a7480f6634ca58efc243b3be04
+      internalID: -1265304067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 233
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22adf62e7bea21246b6a17424634d6ea
+      internalID: 18377719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 237
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5426b6890937392468bf14dda073f68c
+      internalID: 900495637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 237
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5168e3d184d86d42a0c5cb05e7ef34f
+      internalID: 2021140109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 237
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db80cd5ce330faf4baf4222c799fb809
+      internalID: 341582343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 194
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8662b668be19d2946b940525e11a5bc2
+      internalID: 645455651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3de3a80a9c8c9468b7e6cfda833b4f
+      internalID: 513718324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b58b1872ef91a40a69e7714db13990
+      internalID: 1487792705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 194
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78da0f90a493d746a2c7b9d398558a3
+      internalID: 1401980110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 194
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba249069a8b40c4ea9807da7277f3cc
+      internalID: 1555041894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe25980557d96574e96a81da59894426
+      internalID: -1197190699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a015a36e663bcd46b9abdf2797b155b
+      internalID: 1424256866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 194
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3343ea0c6f8984e42aed0c2b2144cb67
+      internalID: -1191391343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 197
+        width: 23
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830713b3ad759db438dc05d74e440f19
+      internalID: -1851477343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 167
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80e29b1376a3254395da2a2acb95a3e
+      internalID: -1956868019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 167
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6272198ceeed37842b98a4921175f4be
+      internalID: 2085033243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 202
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe3d0b331524b14cabc6a63cc941014
+      internalID: -582955969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 197
+        width: 23
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2823773861cd84fbd51f6f729e6c1f
+      internalID: -592110200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 167
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed61c36c06d512b4c911d67c6ca9694a
+      internalID: 369414668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 167
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e573bd9475544446be2cba88b9cbcc7
+      internalID: -1853912061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 200
+        width: 17
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0385862d9d783cb45af7aec990697059
+      internalID: -1900560647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a28833d69ceada4eb0f10af8fdb9885
+      internalID: 591921952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cee990ca93caf94d880b01869541540
+      internalID: -597255095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 202
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05403c4c2ebb4e49a4fbd031927533d
+      internalID: -556556653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 173
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786e8429da7416439a3655141595db2
+      internalID: -589324416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 173
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f0e288a019fa4e9591daa8478d822
+      internalID: -2061623682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 172
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eebaa7235fd1946a7944a6c8b87bfd
+      internalID: 363161601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 201
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c65b84e9fbe604abe30adbdd95db61
+      internalID: 1835759684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aed5d4c9d00d5a46bbf1bf770bd7947
+      internalID: 1743760101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 173
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70dbec60a774674b92611abd27fd224
+      internalID: -2084143300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 173
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b6abb70b794a143981819b8ec11f34
+      internalID: -527134177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 202
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68925394d0a26044ab041a983752d8f1
+      internalID: 209539018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 172
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac27de7bec913d47a2de9456608a55a
+      internalID: -2061641246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 172
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426911a2031fb454b841690a15635374
+      internalID: 602762050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f707a86e71654f99401888fd9f6f4
+      internalID: 775575223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a747649ca3ad24e83d0454be7f1d25
+      internalID: -2057140329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984493c9ddb604f4d946fba85a92eb55
+      internalID: -856413644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a97901ea78e8541961be71d1416a0f
+      internalID: -1928135651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 135
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd2887ac4774c649880b7efbf640f91
+      internalID: 2025721475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 135
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a14bed09ea56e542a12447a8380f9df
+      internalID: 418004777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 135
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc7de0c0b2c79d49aa08eff9fbfa2b1
+      internalID: -746362463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 135
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46810407528c0814c89b85ab7872b0a1
+      internalID: 1934655930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 139
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91523711a761fe648b8d5383007bf932
+      internalID: 354953103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1654aa6dc4e10aa47a3a29ef90ea724a
+      internalID: -1930212597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 141
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2254222626a857848b58bf155fc66e4d
+      internalID: -720962635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 138
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3116e18539548041af2ba1a90b00c54
+      internalID: -54393302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 138
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b560cb2e1100d7a4686666774c8b95fd
+      internalID: 1430736052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 97
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f73dfba425891e4aa2bbfb5f3560b48
+      internalID: -130020143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 99
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfdf92a43caf68419cd87b49a5bb169
+      internalID: 434468563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 99
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a05982b4ceec34e996731a68ea7393
+      internalID: 2063271368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 65
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61927ac5c3325b94c875a91b752088ee
+      internalID: 158659817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 65
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7362ebe90f1231641bb5603698e744f2
+      internalID: -88029569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 86
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e7ee15c9a35ab4d950c551cab34feb
+      internalID: 121158370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef17347a4e5fd48b39b643064e989a
+      internalID: -542610040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Papernote_Spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 175
+        width: 14
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45f5456329bb4a4b8184baa91a67069
+      internalID: -1256179146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +2531,120 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI_Papernote_Spritesheet_0: 412069153
+      UI_Papernote_Spritesheet_1: -253089338
+      UI_Papernote_Spritesheet_10: 1369462605
+      UI_Papernote_Spritesheet_100: 354953103
+      UI_Papernote_Spritesheet_101: -1930212597
+      UI_Papernote_Spritesheet_102: -720962635
+      UI_Papernote_Spritesheet_103: -54393302
+      UI_Papernote_Spritesheet_104: 1430736052
+      UI_Papernote_Spritesheet_105: -130020143
+      UI_Papernote_Spritesheet_106: 434468563
+      UI_Papernote_Spritesheet_107: 2063271368
+      UI_Papernote_Spritesheet_108: 158659817
+      UI_Papernote_Spritesheet_109: -88029569
+      UI_Papernote_Spritesheet_11: -935919088
+      UI_Papernote_Spritesheet_110: 121158370
+      UI_Papernote_Spritesheet_111: -542610040
+      UI_Papernote_Spritesheet_112: -1256179146
+      UI_Papernote_Spritesheet_12: -1876211072
+      UI_Papernote_Spritesheet_13: 796574364
+      UI_Papernote_Spritesheet_14: -619313536
+      UI_Papernote_Spritesheet_15: 800695624
+      UI_Papernote_Spritesheet_16: 202765822
+      UI_Papernote_Spritesheet_17: 1450749646
+      UI_Papernote_Spritesheet_18: -1864038777
+      UI_Papernote_Spritesheet_19: 942350126
+      UI_Papernote_Spritesheet_2: 378187153
+      UI_Papernote_Spritesheet_20: 1918519004
+      UI_Papernote_Spritesheet_21: 1609207534
+      UI_Papernote_Spritesheet_22: 1998873323
+      UI_Papernote_Spritesheet_23: 1426283776
+      UI_Papernote_Spritesheet_24: -539034684
+      UI_Papernote_Spritesheet_25: 1980371353
+      UI_Papernote_Spritesheet_26: -800765977
+      UI_Papernote_Spritesheet_27: -561119038
+      UI_Papernote_Spritesheet_28: 1286423756
+      UI_Papernote_Spritesheet_29: -720329444
+      UI_Papernote_Spritesheet_3: 1916155639
+      UI_Papernote_Spritesheet_30: -157782091
+      UI_Papernote_Spritesheet_31: 386634279
+      UI_Papernote_Spritesheet_32: -2114136561
+      UI_Papernote_Spritesheet_33: 778034190
+      UI_Papernote_Spritesheet_34: -411943404
+      UI_Papernote_Spritesheet_35: -510209447
+      UI_Papernote_Spritesheet_36: 46342405
+      UI_Papernote_Spritesheet_37: -1170933502
+      UI_Papernote_Spritesheet_38: 1282278942
+      UI_Papernote_Spritesheet_39: 1698298551
+      UI_Papernote_Spritesheet_4: -764453742
+      UI_Papernote_Spritesheet_40: 1517781447
+      UI_Papernote_Spritesheet_41: -187882233
+      UI_Papernote_Spritesheet_42: -715559816
+      UI_Papernote_Spritesheet_43: 1771682011
+      UI_Papernote_Spritesheet_44: -1677373314
+      UI_Papernote_Spritesheet_45: -318646522
+      UI_Papernote_Spritesheet_46: -483573451
+      UI_Papernote_Spritesheet_47: -1939128979
+      UI_Papernote_Spritesheet_48: -598092935
+      UI_Papernote_Spritesheet_49: -1795304486
+      UI_Papernote_Spritesheet_5: 1595178353
+      UI_Papernote_Spritesheet_50: 1676792169
+      UI_Papernote_Spritesheet_51: -1013690142
+      UI_Papernote_Spritesheet_52: -1991123557
+      UI_Papernote_Spritesheet_53: 783162922
+      UI_Papernote_Spritesheet_54: -1669525763
+      UI_Papernote_Spritesheet_55: 1366976554
+      UI_Papernote_Spritesheet_56: -458818378
+      UI_Papernote_Spritesheet_57: -1210433646
+      UI_Papernote_Spritesheet_58: -1265304067
+      UI_Papernote_Spritesheet_59: 18377719
+      UI_Papernote_Spritesheet_6: -932271787
+      UI_Papernote_Spritesheet_60: 900495637
+      UI_Papernote_Spritesheet_61: 2021140109
+      UI_Papernote_Spritesheet_62: 341582343
+      UI_Papernote_Spritesheet_63: 645455651
+      UI_Papernote_Spritesheet_64: 513718324
+      UI_Papernote_Spritesheet_65: 1487792705
+      UI_Papernote_Spritesheet_66: 1401980110
+      UI_Papernote_Spritesheet_67: 1555041894
+      UI_Papernote_Spritesheet_68: -1197190699
+      UI_Papernote_Spritesheet_69: 1424256866
+      UI_Papernote_Spritesheet_7: -601675578
+      UI_Papernote_Spritesheet_70: -1191391343
+      UI_Papernote_Spritesheet_71: -1851477343
+      UI_Papernote_Spritesheet_72: -1956868019
+      UI_Papernote_Spritesheet_73: 2085033243
+      UI_Papernote_Spritesheet_74: -582955969
+      UI_Papernote_Spritesheet_75: -592110200
+      UI_Papernote_Spritesheet_76: 369414668
+      UI_Papernote_Spritesheet_77: -1853912061
+      UI_Papernote_Spritesheet_78: -1900560647
+      UI_Papernote_Spritesheet_79: 591921952
+      UI_Papernote_Spritesheet_8: 2032854988
+      UI_Papernote_Spritesheet_80: -597255095
+      UI_Papernote_Spritesheet_81: -556556653
+      UI_Papernote_Spritesheet_82: -589324416
+      UI_Papernote_Spritesheet_83: -2061623682
+      UI_Papernote_Spritesheet_84: 363161601
+      UI_Papernote_Spritesheet_85: 1835759684
+      UI_Papernote_Spritesheet_86: 1743760101
+      UI_Papernote_Spritesheet_87: -2084143300
+      UI_Papernote_Spritesheet_88: -527134177
+      UI_Papernote_Spritesheet_89: 209539018
+      UI_Papernote_Spritesheet_9: -463823225
+      UI_Papernote_Spritesheet_90: -2061641246
+      UI_Papernote_Spritesheet_91: 602762050
+      UI_Papernote_Spritesheet_92: 775575223
+      UI_Papernote_Spritesheet_93: -2057140329
+      UI_Papernote_Spritesheet_94: -856413644
+      UI_Papernote_Spritesheet_95: -1928135651
+      UI_Papernote_Spritesheet_96: 2025721475
+      UI_Papernote_Spritesheet_97: 418004777
+      UI_Papernote_Spritesheet_98: -746362463
+      UI_Papernote_Spritesheet_99: 1934655930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
