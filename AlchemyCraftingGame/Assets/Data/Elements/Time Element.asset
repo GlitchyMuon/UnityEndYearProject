@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ba6e1e5519f8b49a0a72185b518d0c, type: 3}
   m_Name: Time Element
   m_EditorClassIdentifier: 
-  <ElementalType>k__BackingField: 
+  <ElementalType>k__BackingField: Time

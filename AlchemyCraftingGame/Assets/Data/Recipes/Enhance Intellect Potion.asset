@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
   m_Name: Enhance Intellect Potion
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: 
+  <Name>k__BackingField: Intellect Enhancing Potion
   <FirstIngredient>k__BackingField: {fileID: 0}
   <SecondIngredient>k__BackingField: {fileID: 0}
   <ThirdIngredient>k__BackingField: {fileID: 0}
-  <Description>k__BackingField: 
+  <Description>k__BackingField: A potion that temporarily enhances user's intellect
+    for 4 hours. Will give brainfog for the next 4 hours.
