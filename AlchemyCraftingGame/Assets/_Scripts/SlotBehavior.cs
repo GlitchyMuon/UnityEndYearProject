@@ -13,7 +13,7 @@ public class SlotBehavior : MonoBehaviour, IDropHandler
     }
     public void OnDrop(PointerEventData eventData){
         if (transform.childCount == 0) { //if statement prevents from stacking two different items and prevents from being stuck between gridslots
-            GameObject dropped = eventData.pointerDrag;
+            GameObject dropped = eventData.pointerDrag; //on récupère l'objet dont le pointeur est en train de dragger, et on l'assigne à la variable dropped
             DraggableItem draggableItem = dropped.GetComponent<DraggableItem>();
             draggableItem.parentAfterDrag = transform;
 
@@ -26,6 +26,6 @@ public class SlotBehavior : MonoBehaviour, IDropHandler
     public void OnItemRemoved()
     {
         // Notify the manager that an item has been removed from the slot
-        slotManager.RemoveItemFromSlot(GetComponentInChildren<DraggableItem>());
+        slotManager.RemoveItemFromSlot(GetComponentInChildren<DraggableItem>());    //ça cherche ton composant Et va voir ses enfants dans sa hiérarchie (l'item est enfant du slot)
     }
 }

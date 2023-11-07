@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]   //will create an asset menu option from ItemSO inside the unity inspector
+[CreateAssetMenu]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
 public class ItemSO : ScriptableObject
 {
     [field : SerializeField]
