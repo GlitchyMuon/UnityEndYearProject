@@ -18,3 +18,4 @@ MonoBehaviour:
   <ThirdIngredient>k__BackingField: {fileID: 0}
   <Description>k__BackingField: A potion that temporarily enhances user's intellect
     for 4 hours. Will give brainfog for the next 4 hours.
+  <PotionImage>k__BackingField: {fileID: 601626747, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

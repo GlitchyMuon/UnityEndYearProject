@@ -38,4 +38,7 @@ public class RecipeSO : ScriptableObject
     /// </summary>
     /// <value>String of text</value>
     public string Description { get; set; }
+
+    [field : SerializeField]
+    public Sprite PotionImage {get; set;}
 }
