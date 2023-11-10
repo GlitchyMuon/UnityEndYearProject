@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
+  m_Name: Ulexite crystal
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 10
+  <Name>k__BackingField: Ulexite Crystal
+  <ItemType>k__BackingField: Gemstone
+  <ElementalType>k__BackingField: Moon
+  <Description>k__BackingField: "\rUlexite, also known as TV rock or television stone,
+    activates the third eye and enhances inner visions, imagination, and creativity.
+    It reveals truths and energies previously unnoticed, providing knowledge about
+    one's true self and activating telepathic abilities through meditation or deep
+    sleep. Additionally, Ulexite serves as a mental enhancer, accelerating decision-making
+    and aiding those engaged in intensive study or memorization, making it easier
+    to grasp thoughts and ideas with reduced mental stress."
+  <ItemImage>k__BackingField: {fileID: -284038346, guid: 1af5241cfadbe784d871a1e7357c109d, type: 3}

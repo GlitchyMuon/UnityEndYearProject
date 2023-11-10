@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "Recipe Data", menuName = "ScriptableObjects/Recipe SO")]
 public class RecipeSO : ScriptableObject
 {
     [field : SerializeField]
@@ -30,6 +30,13 @@ public class RecipeSO : ScriptableObject
     /// </summary>
     /// <value>Type SciptableObject ItemSO</value>
     public ItemSO ThirdIngredient {get;set;}
+
+    [field : SerializeField]
+    /// <summary>
+    /// Fourth optional ingredient of the recipe
+    /// </summary>
+    /// <value>Type SciptableObject ItemSO</value>
+    public ItemSO FourthIngredient {get;set;}
 
     [field : SerializeField]
     [field : TextArea]

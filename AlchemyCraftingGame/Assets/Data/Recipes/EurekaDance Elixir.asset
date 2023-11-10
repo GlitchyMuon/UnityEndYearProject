@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
+  m_Name: EurekaDance Elixir
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: 'Eureka Elixir:'
+  <FirstIngredient>k__BackingField: {fileID: 0}
+  <SecondIngredient>k__BackingField: {fileID: 0}
+  <ThirdIngredient>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: 'Ingredients:
+
+    Ingenious Iris Petals
+
+    Creativity
+    Crystal
+
+    
+
+    Spontaneity Sap
+
+    Effect: Sparks sudden bursts of creativity,
+    providing the drinker with ingenious ideas for a short duration. May also result
+    in impromptu interpretive dance sessions.'
+  <PotionImage>k__BackingField: {fileID: 1216025759, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}
