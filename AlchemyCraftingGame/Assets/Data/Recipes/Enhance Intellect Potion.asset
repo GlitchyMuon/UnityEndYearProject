@@ -13,9 +13,22 @@ MonoBehaviour:
   m_Name: Enhance Intellect Potion
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Intellect Enhancing Potion
-  <FirstIngredient>k__BackingField: {fileID: 0}
-  <SecondIngredient>k__BackingField: {fileID: 0}
-  <ThirdIngredient>k__BackingField: {fileID: 0}
-  <Description>k__BackingField: A potion that temporarily enhances user's intellect
-    for 4 hours. Will give brainfog for the next 4 hours.
+  <Ingredient>k__BackingField:
+  - {fileID: 11400000, guid: 9a1115d6e98ede04e8c5896c4bbdf460, type: 2}
+  - {fileID: 11400000, guid: 43a039943d8f2f24da70fef9e3324943, type: 2}
+  - {fileID: 11400000, guid: 0ead7094d76b2fc4bacf0ed0c550d03c, type: 2}
+  <Description>k__BackingField: 'Ingredients :
+
+    Bird (Brain)
+
+    Lunar Flower
+
+    Ulexite
+    Gemstone
+
+
+    Effects :
+
+    A potion that temporarily enhances user''s intellect
+    for 4 hours. Will give brainfog for the next 4 hours.'
   <PotionImage>k__BackingField: {fileID: 601626747, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

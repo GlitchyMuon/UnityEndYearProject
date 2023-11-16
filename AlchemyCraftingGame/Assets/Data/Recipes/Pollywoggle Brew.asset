@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Pollywoggle Brew
   m_EditorClassIdentifier: 
   <Name>k__BackingField: 
-  <FirstIngredient>k__BackingField: {fileID: 11400000, guid: 63dafa1eaa156cc48b5d4a2d9b816552, type: 2}
-  <SecondIngredient>k__BackingField: {fileID: 11400000, guid: 8247842ddb2c2bd47977025d720f5d6b, type: 2}
-  <ThirdIngredient>k__BackingField: {fileID: 11400000, guid: fe86be05adda8384f8929f9d9dc1c31b, type: 2}
-  <FourthIngredient>k__BackingField: {fileID: 11400000, guid: a4004c65fe69ec7498e67ec79bab8451, type: 2}
+  <Ingredient>k__BackingField:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b234339c3afdb6b4cb03e1a42e5b2f35, type: 2}
   <Description>k__BackingField: "Ingredients:\r\nFroggy Friendship Froth\nToad Talk
-    Tincture\r\nLilypad\r\nAventurine crystal\r\nEffect: Grants the ability to communicate
+    Tincture\r\nLilypad\r\nCavansite crystal\r\nEffect: Grants the ability to communicate
     with frogs and toads. Useful for daily garden maintenance and getting tips on
     organic pest control.\r"
   <PotionImage>k__BackingField: {fileID: 1721867122, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

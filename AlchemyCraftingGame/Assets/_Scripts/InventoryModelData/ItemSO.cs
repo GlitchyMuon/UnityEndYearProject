@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Inventory.Model
-{
+// namespace Inventory.Model
+// {
     [CreateAssetMenu(fileName = "Ingredient Data", menuName = "ScriptableObjects/Item SO")]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
     public class ItemSO : ScriptableObject
     {
-        [field : SerializeField]
+        // [field : SerializeField]
 
-        public bool IsStackable { get; set; }
+        // public bool IsStackable { get; set; }
 
         public int ID => GetInstanceID();   //will return a unique instance ID for each instanciated scirptable object item. So we can check and compare if we have an instance of "" object in our inventory by detecting if we have an object with this ID already in our inventory
 
-        [field : SerializeField]
-        public int MaxStackSize { get; set; } = 1;
+        // [field : SerializeField]
+        // public int MaxStackSize { get; set; } = 1;
 
         [field : SerializeField]
         public string Name { get; set; }
@@ -40,19 +40,19 @@ namespace Inventory.Model
         [field : SerializeField]
         public Sprite ItemImage { get; set; }
 
-        [field : SerializeField]
+        // [field : SerializeField]
         // public List<ItemParameter> DefaultParameters { get; set; }
     }
 
-    [Serializable]
-    public struct ItemParameter : IEquatable<ItemParameter>
-    {
-        public ItemParameterSO itemParameter;
-        public float value;
+    // [Serializable]
+    // public struct ItemParameter : IEquatable<ItemParameter>
+    // {
+    //     public ItemParameterSO itemParameter;
+    //     public float value;
 
-        public bool Equals(ItemParameter other)
-        {
-            return other.itemParameter == itemParameter;
-        }
-    }
-}
+    //     public bool Equals(ItemParameter other)
+    //     {
+    //         return other.itemParameter == itemParameter;
+    //     }
+    // }
+// }

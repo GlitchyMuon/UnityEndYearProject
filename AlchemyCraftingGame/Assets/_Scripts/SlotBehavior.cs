@@ -5,11 +5,14 @@ using UnityEngine.EventSystems;
 
 public class SlotBehavior : MonoBehaviour, IDropHandler
 {
+    public bool isInCircle = false;
     private MagicCircleSlotManager slotManager;
     private void Start()
     {
         // Find the SlotManager in the scene and assign it to the slotManager variable
-        slotManager = FindObjectOfType<MagicCircleSlotManager>();
+        if (isInCircle){
+            slotManager = FindObjectOfType<MagicCircleSlotManager>();
+        }
     }
     public void OnDrop(PointerEventData eventData){
         if (transform.childCount == 0) { //if statement prevents from stacking two different items and prevents from being stuck between gridslots
@@ -18,7 +21,7 @@ public class SlotBehavior : MonoBehaviour, IDropHandler
             draggableItem.parentAfterDrag = transform;
 
             // Notify the manager that an item has been added to the slot
-            slotManager.AddItemToSlot(draggableItem);
+            slotManager?.AddItemToSlot(draggableItem); //if slotmManager not equal null
         }
     }
 
@@ -26,6 +29,6 @@ public class SlotBehavior : MonoBehaviour, IDropHandler
     public void OnItemRemoved()
     {
         // Notify the manager that an item has been removed from the slot
-        slotManager.RemoveItemFromSlot(GetComponentInChildren<DraggableItem>());    //ça cherche ton composant Et va voir ses enfants dans sa hiérarchie (l'item est enfant du slot)
+        slotManager?.RemoveItemFromSlot(GetComponentInChildren<DraggableItem>());    //ça cherche ton composant Et va voir ses enfants dans sa hiérarchie (l'item est enfant du slot)
     }
 }

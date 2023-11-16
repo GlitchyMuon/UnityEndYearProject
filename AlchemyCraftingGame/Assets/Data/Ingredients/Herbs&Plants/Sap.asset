@@ -10,10 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
-  m_Name: Herb
+  m_Name: Sap
   m_EditorClassIdentifier: 
-  <IsStackable>k__BackingField: 1
-  <MaxStackSize>k__BackingField: 30
   <Name>k__BackingField: 
   <ItemType>k__BackingField: 
   <ElementalType>k__BackingField: 
