@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Toad
   m_EditorClassIdentifier: 
-  <IsStackable>k__BackingField: 1
-  <MaxStackSize>k__BackingField: 5
   <Name>k__BackingField: Toad
   <ItemType>k__BackingField: Creatures
   <ElementalType>k__BackingField: Water
-  <Description>k__BackingField: 
-  <ItemImage>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: "I\u2019m sure when you picture a Toad you see a
+    wrinkly, brown, ugly creature. In reality, these frogs come in a variety of shapes,
+    sizes, and colors. Ok, some species are admittedly a tad ugly, but they are all
+    unique in their own way.\nThese amphibians are part of the taxonomic order Anura
+    that makes up the frog family. However, they differ from other frogs in the texture
+    of their skin. Toads have dry, leather-like skin, while frogs have moist, semi-permeable
+    skin."
+  <ItemImage>k__BackingField: {fileID: -100850758, guid: 1aedde71d3c92034689d229a5aea1f05, type: 3}

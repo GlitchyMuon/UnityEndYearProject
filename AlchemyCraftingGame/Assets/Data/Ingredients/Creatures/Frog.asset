@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Frog
   m_EditorClassIdentifier: 
-  <IsStackable>k__BackingField: 1
-  <MaxStackSize>k__BackingField: 5
   <Name>k__BackingField: Frog
   <ItemType>k__BackingField: Creatures
   <ElementalType>k__BackingField: Water
-  <Description>k__BackingField: 
-  <ItemImage>k__BackingField: {fileID: -383013019, guid: 1aedde71d3c92034689d229a5aea1f05, type: 3}
+  <Description>k__BackingField: "Frogs aren't distinguishable by their size (don't
+    think that a big frog is a toad !)\nThe biggest frog in the world is the Goliath
+    frog. It lives in West Africa and can measure more than a foot in length and
+    weigh more than 7 pounds \u2013 as much as a newborn baby.\nIn general, frogs
+    have protruding eyes, no tail, and strong, webbed hind feet that are adapted
+    for leaping and swimming. They also possess smooth, moist skins. Many are predominantly
+    aquatic, but some live on land, in burrows, or in trees.\nA frog completely sheds
+    its skin about once a week. After it pulls off the old, dead skin, the frog usually
+    eats it."
+  <ItemImage>k__BackingField: {fileID: 792966286, guid: e740552f828261a4285bef42e032ef5d, type: 3}

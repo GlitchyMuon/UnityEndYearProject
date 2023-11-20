@@ -12,10 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Ingenuous Iris Petal
   m_EditorClassIdentifier: 
-  <IsStackable>k__BackingField: 0
-  <MaxStackSize>k__BackingField: 10
-  <Name>k__BackingField: Ingenuous Iris Petal
+  <Name>k__BackingField: Purpel Iris Petal
   <ItemType>k__BackingField: Flower
-  <ElementalType>k__BackingField: 
-  <Description>k__BackingField: 
-  <ItemImage>k__BackingField: {fileID: 0}
+  <ElementalType>k__BackingField: Time
+  <Description>k__BackingField: 'Iris flower is considered as a representation of
+    wisdom, elegance, faith, and royal happenings in life. The flower is known for
+    its flawless beauty, attractive colors, and different varieties. Irises also
+    signify charm, purity, ecstasy, and compassion.
+
+    It enhances your awareness,
+    improves perspectives about various things in life.
+
+    This blossom opens
+    your consciousness for better understanding and perception.
+
+    Iris flower
+    is a symbol of honor, grandeur, and unity.
+
+    It communicates love, faith,
+    wisdom, and hope and conveys deep emotions and sentiments.'
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: f6cb99362d7ec074b98d6f0f2f488bbd, type: 3}

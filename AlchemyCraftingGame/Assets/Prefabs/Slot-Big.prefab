@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3766551129214706339}
   m_Layer: 5
   m_Name: Slot-Big
-  m_TagString: Untagged
+  m_TagString: MagicCircleSlotTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,3 +113,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 650ae1905c6330f409beddac0da3058e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInCircle: 0
