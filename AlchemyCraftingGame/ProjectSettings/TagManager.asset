@@ -6,6 +6,7 @@ TagManager:
   tags:
   - InventorySlotTag
   - MagicCircleSlotTag
+  - InventoryDropArea
   layers:
   - Default
   - TransparentFX

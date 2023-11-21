@@ -22,6 +22,7 @@ public class InstantiateItemsInInventory : MonoBehaviour
         transform.SetAsLastSibling(); //to set at our very top of our view
     }
 }
+//Méthode de Thomas:
 //instantiate sans mettre de coordonnées
 //ensuite je parente l'objet que je viens d'instancier à mon inventaire
 //object.transform.parent = transform de l'inventaire
