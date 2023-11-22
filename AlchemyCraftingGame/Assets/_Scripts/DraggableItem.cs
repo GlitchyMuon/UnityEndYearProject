@@ -8,8 +8,10 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     public Image image;
 
-    public GameObject inventorySlot; 
     [HideInInspector] public Transform parentAfterDrag;
+
+    // Reference to the associated ScriptableObject
+    [HideInInspector] public ItemSO associatedItemSO;
 
     public void OnBeginDrag(PointerEventData eventData) {
         if (transform.parent.CompareTag("InventorySlotTag")) {  //check if parent of the item has an InventororySlotTag
@@ -20,6 +22,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             //if parent is slot then deparent and destroy slot parent
             //not the following code because on canvas :
             //transform.parent = null; //but transform.SetParent(transform.root);
+            image.raycastTarget = false;    //we want to detect the dropArea, so we want to ignore raycast that detects the item image ! Without this line, the first drop in area will not spawn an inventory slot !
         }
 
         else {  //code applies on magic circle drag&drop
@@ -39,18 +42,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData) {
         Debug.Log("End drag");
-
-        if (transform.parent.CompareTag("InventoryDropArea")){  //should be something else than transform.parent
-            Instantiate(inventorySlot);
-            transform.SetParent(transform.parent);    //doesn't do what intended.
-        }
-        
-        else {
-            transform.SetParent(parentAfterDrag);
-            image.raycastTarget = true; //interaction with the item will be possible again after the drag ends.
-            //parent after drag should be InventoryDropArea which is InventoryGrid
-        }
-
-        //if invetoryDropArea : instantiate another slot for item back in inventory
+        transform.SetParent(parentAfterDrag);
+        image.raycastTarget = true; //interaction with the item will be possible again after the drag ends.
+        //parent after drag should be InventoryDropArea which is InventoryGrid. Code in InventoryDropArea.cs
     }  
 }

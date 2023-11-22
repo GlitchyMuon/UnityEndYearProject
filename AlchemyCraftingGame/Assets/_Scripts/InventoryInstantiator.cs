@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//manages the item creation in slots
 public class InventoryInstantiator : MonoBehaviour
 {
     // Reference to the InventorySlot prefab

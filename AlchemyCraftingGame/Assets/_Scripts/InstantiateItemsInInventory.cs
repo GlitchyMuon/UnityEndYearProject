@@ -18,7 +18,7 @@ public class InstantiateItemsInInventory : MonoBehaviour
         // Instantiate at position (0, 0, 0) and zero rotation.
         Instantiate(mySO);
         //mySO.transform.parent = transform.localPosition;
-        transform.SetParent(transform.root);
+        transform.SetParent(transform.root);    //root is the canvas
         transform.SetAsLastSibling(); //to set at our very top of our view
     }
 }
