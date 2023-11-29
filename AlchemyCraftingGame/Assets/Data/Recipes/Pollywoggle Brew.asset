@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: 
   <Ingredient>k__BackingField:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 63dafa1eaa156cc48b5d4a2d9b816552, type: 2}
+  - {fileID: 11400000, guid: 8247842ddb2c2bd47977025d720f5d6b, type: 2}
+  - {fileID: 11400000, guid: fe86be05adda8384f8929f9d9dc1c31b, type: 2}
   - {fileID: 11400000, guid: b234339c3afdb6b4cb03e1a42e5b2f35, type: 2}
   <Description>k__BackingField: "Ingredients:\r\nFroggy Friendship Froth\nToad Talk
-    Tincture\r\nLilypad\r\nCavansite crystal\r\nEffect: Grants the ability to communicate
-    with frogs and toads. Useful for daily garden maintenance and getting tips on
-    organic pest control.\r"
+    Tincture\r\nWaterlily Lilypad\r\nCavansite crystal\r\nEffect: Grants the ability
+    to communicate with frogs and toads. Useful for daily garden maintenance and
+    getting tips on organic pest control.\r"
   <PotionImage>k__BackingField: {fileID: 1721867122, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

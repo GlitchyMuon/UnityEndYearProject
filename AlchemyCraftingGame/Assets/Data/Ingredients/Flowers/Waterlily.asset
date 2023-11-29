@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Waterlily
   m_EditorClassIdentifier: 
-  <IsStackable>k__BackingField: 1
-  <MaxStackSize>k__BackingField: 10
+  element: 0
   <Name>k__BackingField: Waterlily
   <ItemType>k__BackingField: Flower
-  <ElementalType>k__BackingField: Water
-  <Description>k__BackingField: 
+  <Description>k__BackingField: "Named after the Greek nymph, the Water Lily is a
+    symbol of beauty that can also have a dangerous side. It\u2019s also a symbol
+    of unity and finding peace and balance. For Buddhists, it symbolizes rising up
+    from the mundane world and into the spiritual one."
   <ItemImage>k__BackingField: {fileID: 21300000, guid: b7d8e1e714fd31b429b5a6756f36c826, type: 3}

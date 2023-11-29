@@ -7,6 +7,18 @@ using UnityEngine;
     [CreateAssetMenu(fileName = "Ingredient Data", menuName = "ScriptableObjects/Item SO")]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
     public class ItemSO : ScriptableObject
     {
+        public enum ElementalType
+        {
+            Sun,
+            Fire,
+            Electricity,
+            Earth,
+            Moon,
+            Time,
+            Wind
+        }
+        public ElementalType element;
+
         // [field : SerializeField]
 
         // public bool IsStackable { get; set; }
@@ -30,8 +42,8 @@ using UnityEngine;
         /// Elemental type of the item
         /// </summary>
         /// <value>Moon, Sun, Time, Earth, Wind, Electricity, Fire or Water</value>
-        [field : SerializeField]
-        public string ElementalType { get; set; }
+        // [field : SerializeField]
+        // public string ElementalType { get; set; }
         
         [field : SerializeField]
         [field : TextArea]
