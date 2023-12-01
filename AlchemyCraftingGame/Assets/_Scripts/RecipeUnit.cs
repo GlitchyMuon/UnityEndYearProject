@@ -28,7 +28,7 @@ public class RecipeUnit : MonoBehaviour
 
         // Set the associated ScriptableObject. Now RecipeListLinkToSO knows the associated ScriptableObject
         GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
-        
+
         //recipeName.SetText($"{recipeSO.RecipeName}");   //this line if put here : instanciates Wrong number of recipes (onmy 1) And no text change either
     }
 }
