@@ -8,7 +8,7 @@ using UnityEngine;
     public class RecipeSO : ScriptableObject
     {
         [field : SerializeField]
-        public string Name {get;set;}
+        public string RecipeName {get;set;}
 
         public int ID => GetInstanceID(); 
 
