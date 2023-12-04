@@ -11,12 +11,16 @@ public class RecipeUnit : MonoBehaviour
     public Image recipePotionImage;   //new Image component for displaying the PotionImage
 
     public RecipeSO recipeSO; //Reference to the associated ScriptableObject
-    private TMP_Text recipeName;
+    private TMP_Text recipeNameTMP;
     void Start()
     {
-        recipeName = GetComponent<TMP_Text>();
+        recipeNameTMP = GetComponent<TMP_Text>();
         //Set Recipe Name in TextMeshPro
-        recipeName.SetText($"{recipeSO.RecipeName}");   //this line if put here : instanciates correct number of recipes but no text change
+        recipeNameTMP.SetText("{recipeSO.RecipeName}");   //this line if put here : instanciates correct number of recipes but no text change
+    }
+
+    void Update(){
+        //recipeNameTMP.SetText($"{recipeSO.RecipeName}");   //this line if put here : instanciates correct number of recipes but no text change. And shows an error message in console log : NullReferenceException : Object reference not set to an instance of an object RecipeUnit.Update() (at Assets/_Scripts/RecipeUnit.cs:23)
     }
     public void SetRecipeData(RecipeSO recipe)
     {
