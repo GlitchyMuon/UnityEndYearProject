@@ -15,6 +15,17 @@ public class RecipeListLinkToSO : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Find the GridLayoutGroup if it's not assigned in the Inspector
+        if (gridLayoutGroup == null)
+        {
+            gridLayoutGroup = FindObjectOfType<GridLayoutGroup>();
+            
+            if (gridLayoutGroup == null)
+            {
+                Debug.LogError("GridLayoutGroup not found. Make sure it is assigned or present in the scene.");
+                return;
+            }
+        }
         InstantiateRecipes();
     }
 
@@ -38,6 +49,7 @@ public class RecipeListLinkToSO : MonoBehaviour
                 Debug.LogError("RecipeUnit script not found on the instantiated prefab.");
             }
         }
+        // Log the number of instantiated recipes
+        Debug.Log($"Number of instantiated recipes: {gridLayoutGroup.transform.childCount}");
     }
-
 }
