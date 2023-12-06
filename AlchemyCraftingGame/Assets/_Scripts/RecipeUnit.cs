@@ -18,7 +18,8 @@ public class RecipeUnit : MonoBehaviour
         if (recipeSO != null)
         {
         // Set Recipe Name in TextMeshPro
-        recipeNameTMP.SetText($"{recipeSO.RecipeName}");
+        recipeNameTMP.text = recipeSO.RecipeName;
+        //recipeNameTMP.SetText($"{recipeSO.RecipeName}");
         }   //this line if put here : instanciates correct number of recipes but no text change
     }
 
@@ -36,6 +37,8 @@ public class RecipeUnit : MonoBehaviour
         // Set the associated ScriptableObject. Now RecipeListLinkToSO knows the associated ScriptableObject
         GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
         //Update the TextMeshPro text
-       // recipeNameTMP.SetText($"{recipe.RecipeName}");   //this line if put here : instanciates Wrong number of recipes (onmy 1) And no text change either
+        // Set Recipe Name in TextMeshPro
+        //recipeNameTMP.text = recipe.RecipeName;
+        // recipeNameTMP.SetText($"{recipe.RecipeName}");   //this line if put here : instanciates Wrong number of recipes (onmy 1) And no text change either
     }
 }
