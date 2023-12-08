@@ -4,6 +4,14 @@ using UnityEngine;
 
 // namespace Inventory.Model
 // {
+
+public static class EnumExtensions
+        {
+            public static string ToFriendlyString(this ItemSO.ElementalType element)
+            {
+                return ItemSO.ElementalType.GetName(element.GetType(), element);
+            }
+        }
     [CreateAssetMenu(fileName = "Ingredient Data", menuName = "ScriptableObjects/Item SO")]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
     public class ItemSO : ScriptableObject
     {
@@ -38,12 +46,12 @@ using UnityEngine;
         [field : SerializeField]
         public string ItemType { get; set; }
 
-        /// <summary>
-        /// Elemental type of the item
-        /// </summary>
-        /// <value>Moon, Sun, Time, Earth, Wind, Electricity, Fire or Water</value>
+        // /// <summary>
+        // /// Elemental type of the item
+        // /// </summary>
+        // /// <value>Moon, Sun, Time, Earth, Wind, Electricity, Fire or Water</value>
         // [field : SerializeField]
-        // public string ElementalType { get; set; }
+        // public string ElementType { get; set; }
         
         [field : SerializeField]
         [field : TextArea]
@@ -54,7 +62,10 @@ using UnityEngine;
 
         // [field : SerializeField]
         // public List<ItemParameter> DefaultParameters { get; set; }
+
     }
+
+    
 
     // [Serializable]
     // public struct ItemParameter : IEquatable<ItemParameter>

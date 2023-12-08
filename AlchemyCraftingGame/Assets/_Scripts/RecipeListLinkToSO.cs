@@ -42,7 +42,7 @@ public class RecipeListLinkToSO : MonoBehaviour
             if (scrollScript != null)
             {
                 //Assign the ScriptableObject data to the prefab script
-                scrollScript.SetRecipeData(recipe);
+                scrollScript.SetRecipeData(recipe); //link to associatedRecipeSO ?
             }
             else 
             {
@@ -53,3 +53,11 @@ public class RecipeListLinkToSO : MonoBehaviour
         Debug.Log($"Number of instantiated recipes: {gridLayoutGroup.transform.childCount}");
     }
 }
+
+//If I manually put the RecipeSO's into the Recipes list of the RecipeListLinkToSO script on the Textmeshpro Object of my RecipeScrollImage.prefab, in inspector, it fires an error : 
+//UnassignedReferenceException: The variable recipePrefab of RecipeListLinkToSO has not been assigned.
+// You probably need to assign the recipePrefab variable of the RecipeListLinkToSO script in the inspector.
+// UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) (at <30adf90198bc4c4b83910c6fb1877998>:0)
+// UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) (at <30adf90198bc4c4b83910c6fb1877998>:0)
+// UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent) (at <30adf90198bc4c4b83910c6fb1877998>:0)
+// RecipeListLinkToSO.InstantiateRecipes () (at Assets/_Scripts/RecipeListLinkToSO.cs:37)

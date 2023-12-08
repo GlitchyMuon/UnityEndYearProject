@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeae86abae5ccdc49a1a72ea4f25d917, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recipePrefab: {fileID: 0}
+  recipePrefab: {fileID: 2126422943304357557}
   gridLayoutGroup: {fileID: 0}
   associatedRecipeSO: {fileID: 0}
   recipes: []

@@ -18,7 +18,9 @@ public class RecipeUnit : MonoBehaviour
         if (recipeSO != null)
         {
         // Set Recipe Name in TextMeshPro
-        recipeNameTMP.text = recipeSO.RecipeName;
+        //recipeNameTMP.text = recipeSO.RecipeName;
+        Debug.Log($"Recipe Name: {recipeSO?.RecipeName}"); // Check if recipeSO is not null
+        recipeNameTMP.SetText($"{recipeSO?.RecipeName}");
         //recipeNameTMP.SetText($"{recipeSO.RecipeName}");
         }   //this line if put here : instanciates correct number of recipes but no text change
     }

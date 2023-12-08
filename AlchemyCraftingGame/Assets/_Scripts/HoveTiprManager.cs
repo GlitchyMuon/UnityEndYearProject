@@ -44,8 +44,6 @@ public class HoverTipManager : MonoBehaviour
 
         //we want to position that tipbox over the top of our cursor, but we don't want it directly over the top, but slightly to the right of the cursor, so the cursor itself doens't actually cover any of the message.
         tipWindow.transform.position = new Vector2(mousePosition.x + tipWindow.sizeDelta.x / 2, mousePosition.y);
-
-
     }
 
     private void HideTip()
@@ -53,5 +51,4 @@ public class HoverTipManager : MonoBehaviour
         tipText.text = default;
         tipWindow.gameObject.SetActive(false);
     }
-
 }
