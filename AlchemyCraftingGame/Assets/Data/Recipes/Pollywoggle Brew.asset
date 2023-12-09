@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
   m_Name: Pollywoggle Brew
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: 
+  <RecipeName>k__BackingField: Pollywoggle Brew
   <Ingredient>k__BackingField:
   - {fileID: 11400000, guid: 63dafa1eaa156cc48b5d4a2d9b816552, type: 2}
   - {fileID: 11400000, guid: 8247842ddb2c2bd47977025d720f5d6b, type: 2}

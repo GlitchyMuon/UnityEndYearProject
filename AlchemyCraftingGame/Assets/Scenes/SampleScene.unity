@@ -766,7 +766,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 34208175}
   m_HandleRect: {fileID: 34208174}
   m_Direction: 2
-  m_Value: 0.9999997
+  m_Value: 1
   m_Size: 0.642414
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 90, y: 30}
+  m_CellSize: {x: 100, y: 60}
   m_Spacing: {x: 20, y: 10}
   m_Constraint: 1
   m_ConstraintCount: 2
@@ -10046,6 +10046,22 @@ PrefabInstance:
     - target: {fileID: 940340757880700155, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
       propertyPath: m_Name
       value: ToolTipPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.43137258
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.909804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4285433832
       objectReference: {fileID: 0}
     - target: {fileID: 6966370121756614244, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
       propertyPath: m_Pivot.x

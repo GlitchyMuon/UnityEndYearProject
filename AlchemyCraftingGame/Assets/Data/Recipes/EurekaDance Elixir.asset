@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
   m_Name: EurekaDance Elixir
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: 'Eureka Elixir:'
+  <RecipeName>k__BackingField: Eureka Dance Elixir
   <Ingredient>k__BackingField:
   - {fileID: 11400000, guid: 81b1ff7fd498f174ebc12968176b383d, type: 2}
   - {fileID: 11400000, guid: a4004c65fe69ec7498e67ec79bab8451, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
   m_Name: Enhance Intellect Potion
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Intellect Enhancing Potion
+  <RecipeName>k__BackingField: Enhance Intellect Potion
   <Ingredient>k__BackingField:
   - {fileID: 11400000, guid: 9a1115d6e98ede04e8c5896c4bbdf460, type: 2}
   - {fileID: 11400000, guid: 43a039943d8f2f24da70fef9e3324943, type: 2}

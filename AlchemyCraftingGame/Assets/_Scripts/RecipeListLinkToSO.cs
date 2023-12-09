@@ -19,7 +19,7 @@ public class RecipeListLinkToSO : MonoBehaviour
         if (gridLayoutGroup == null)
         {
             gridLayoutGroup = FindObjectOfType<GridLayoutGroup>();
-            
+
             if (gridLayoutGroup == null)
             {
                 Debug.LogError("GridLayoutGroup not found. Make sure it is assigned or present in the scene.");
@@ -29,9 +29,10 @@ public class RecipeListLinkToSO : MonoBehaviour
         InstantiateRecipes();
     }
 
+    [HideInInspector]
     void InstantiateRecipes()
     {
-        foreach(RecipeSO recipe in recipes)
+        foreach (RecipeSO recipe in recipes)
         {
             //Instantiate the RecipeScroll prefab as a new GameObject
             GameObject newScroll = Instantiate(recipePrefab, gridLayoutGroup.transform);
@@ -44,7 +45,7 @@ public class RecipeListLinkToSO : MonoBehaviour
                 //Assign the ScriptableObject data to the prefab script
                 scrollScript.SetRecipeData(recipe); //link to associatedRecipeSO ?
             }
-            else 
+            else
             {
                 Debug.LogError("RecipeUnit script not found on the instantiated prefab.");
             }

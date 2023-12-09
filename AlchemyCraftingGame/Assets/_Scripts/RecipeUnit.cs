@@ -11,18 +11,18 @@ public class RecipeUnit : MonoBehaviour
     public Image recipePotionImage;   //new Image component for displaying the PotionImage
 
     public RecipeSO recipeSO; //Reference to the associated ScriptableObject
-    private TextMeshProUGUI recipeNameTMP;  //wasn't TMP_Text !
+    public TextMeshProUGUI recipeNameTMP;  //wasn't TMP_Text !
     void Start()
     {
         recipeNameTMP = GetComponentInChildren<TextMeshProUGUI>(); //or TMP_Text ?
-        if (recipeSO != null)
-        {
-        // Set Recipe Name in TextMeshPro
-        //recipeNameTMP.text = recipeSO.RecipeName;
-        Debug.Log($"Recipe Name: {recipeSO?.RecipeName}"); // Check if recipeSO is not null
-        recipeNameTMP.SetText($"{recipeSO?.RecipeName}");
-        //recipeNameTMP.SetText($"{recipeSO.RecipeName}");
-        }   //this line if put here : instanciates correct number of recipes but no text change
+        // if (recipeSO != null)
+        // {
+        //     // Set Recipe Name in TextMeshPro
+        //     //recipeNameTMP.text = recipeSO.RecipeName;
+        //     Debug.Log($"Recipe Name: {recipeSO?.RecipeName}"); // Check if recipeSO is not null
+        //     recipeNameTMP.SetText($"{recipeSO?.RecipeName}");
+        //     //recipeNameTMP.SetText($"{recipeSO.RecipeName}");
+        // }   //this line if put here : instanciates correct number of recipes but no text change
     }
 
     // void Update(){
@@ -38,6 +38,13 @@ public class RecipeUnit : MonoBehaviour
 
         // Set the associated ScriptableObject. Now RecipeListLinkToSO knows the associated ScriptableObject
         GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
+
+        //Following if check used, since making recipeNameTMP into public and assigning the TextMeshProUGUI on the RecipeUnit script on the parent (RecipeScrollImage) of my prefab doesn't work, neither putting on the TextMeshPro child
+        if (recipeNameTMP == null)
+        {
+            recipeNameTMP = GetComponentInChildren<TextMeshProUGUI>();
+        }
+        recipeNameTMP.SetText($"{recipe.RecipeName}");
         //Update the TextMeshPro text
         // Set Recipe Name in TextMeshPro
         //recipeNameTMP.text = recipe.RecipeName;
