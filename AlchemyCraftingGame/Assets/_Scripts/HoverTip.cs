@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,11 +7,23 @@ using UnityEngine.EventSystems;
 
 public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    public enum ElementalType
+    {
+        Sun = 0,
+        Fire = 1,
+        Electricity = 2,
+        Earth = 3,
+        Moon = 4,
+        Time = 5,
+        Wind = 6
+    }
+
     public enum TooltipType
     {
         Item,
         Recipe
     }
+
     public TooltipType tooltipType;
     public string tipToShow;
     private float timeToWait = 0.5f;
@@ -20,13 +33,19 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     private bool isDragging = false;
 
+    private void Awake()
+    {
+        // Try to get the associated SO from the parent or children components
+        TryGetComponentInChildren(out associatedSO);
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (!isDragging)
         {
             //StopCoroutine(StartTimer()); //check if better to put a boolean ?
-            StopAllCoroutines();
+            StopCoroutine(StartTimer());
+            //StopAllCoroutines();
             StartCoroutine(StartTimer());
         }
         //Debug.Log("Hovered");
@@ -35,17 +54,19 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerExit(PointerEventData eventData)
     {
 
-       // Debug.Log("Exited");
-       //we wanna stop all couritines again, just in case we've hovered over it but not long enough to show the message
-        StopAllCoroutines();
+        // Debug.Log("Exited");
+        //we wanna stop all couritines again, just in case we've hovered over it but not long enough to show the message
+        StopCoroutine(StartTimer());
+        //StopAllCoroutines();
         HoverTipManager.OnMouseLoseFocus();
-        
+
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         isDragging = true;
-        StopAllCoroutines();
+        StopCoroutine(StartTimer());
+        //StopAllCoroutines();
         HoverTipManager.OnMouseLoseFocus();
     }
 
@@ -71,25 +92,38 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         switch (tooltipType)
         {
             case TooltipType.Item:
-                if (associatedSO is ItemSO itemSO)
+                if (TryGetComponentInChildren(out ItemSO itemSO))
                 {
-                    return $"Item: {itemSO.Name}\nType: {itemSO.ItemType}\n Description: {itemSO.Description}";
+                    Debug.Log("Item tooltip");
+                    string[] elementNames = Enum.GetNames(typeof(ElementalType));
+                    string elementName = itemSO.ElementType.ToString();
+
+                    return $"Item: {itemSO.Name}\nType: {itemSO.ItemType}\nElementType: {elementName}\n Description: {itemSO.Description}";
                     //Element: {itemSO.ElementalType.ToFriendlyString()}\n
                     //doesn't work
                 }
                 break;
 
             case TooltipType.Recipe:
-                if (associatedSO is RecipeSO recipeSO)
+                if (TryGetComponentInChildren(out RecipeSO recipeSO))
                 {
-                     // Explicitly specify the type of array elements
-                string ingredients = string.Join(", ", recipeSO.Ingredient.Select(ingredient => ingredient.Name));
-                return $"Recipe: {recipeSO.RecipeName}\nIngredients: {ingredients}\nDescription: {recipeSO.Description}";
+                    Debug.Log("Recipe tooltip");
+                    string[] elementNames = Enum.GetNames(typeof(ElementalType));
+                    string elementName = recipeSO.ElementType.ToString();
+                    // Explicitly specify the type of array elements
+                    string ingredients = string.Join(", ", recipeSO.Ingredient.Select(ingredient => ingredient.Name));
+                    return $"Recipe: {recipeSO.RecipeName}\nIngredients: {ingredients}\nElementType: {elementName}\nDescription: {recipeSO.Description}";
                 }
                 break;
         }
 
-        return "Invalid tooltip content";
+        return "Invalid tooltip content";   //goes right to this statement. Need to  Debug.Log in cases
+    }
+
+    private bool TryGetComponentInChildren<T>(out T component) where T : class
+    {
+        component = GetComponentInChildren<T>(true);
+        return component != null;
     }
 
     // // Called when the user clicks on the UI element (can be used for item confirmation or recipe selection)

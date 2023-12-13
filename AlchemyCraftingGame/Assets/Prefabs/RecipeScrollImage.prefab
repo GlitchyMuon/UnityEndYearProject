@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 2483850944393319298}
   - component: {fileID: 5432590725815880134}
   - component: {fileID: -8611944662265148617}
+  - component: {fileID: 5357703115499507181}
   m_Layer: 5
   m_Name: RecipeScrollImage
   m_TagString: Untagged
@@ -337,3 +338,18 @@ MonoBehaviour:
   recipePotionImage: {fileID: 7425398993470131471}
   recipeSO: {fileID: 0}
   recipeNameTMP: {fileID: 8359926495064795773}
+--- !u!114 &5357703115499507181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126422943304357557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfdc1f95cee4fd4e8570f10830d5c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltipType: 1
+  tipToShow: 
+  associatedSO: {fileID: 0}

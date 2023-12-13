@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8974830260174479306}
   - component: {fileID: 7912724517479699024}
   - component: {fileID: 415179773552611746}
+  - component: {fileID: 2373244775414684006}
   m_Layer: 5
   m_Name: ItemImage
   m_TagString: Untagged
@@ -90,6 +91,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 7912724517479699024}
   parentAfterDrag: {fileID: 0}
+  associatedItemSO: {fileID: 0}
+--- !u!114 &2373244775414684006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2392759786329321713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfdc1f95cee4fd4e8570f10830d5c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltipType: 0
+  tipToShow: 
+  associatedSO: {fileID: 0}
 --- !u!1 &5987280182453289565
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,3 +198,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotImage: {fileID: 8595321145752070444}
   itemImage: {fileID: 7912724517479699024}
+  itemSO: {fileID: 0}

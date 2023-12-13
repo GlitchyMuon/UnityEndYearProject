@@ -9,7 +9,7 @@ public class HoverTipManager : MonoBehaviour
     public TextMeshProUGUI tipText;
     public RectTransform tipWindow;
 
-    public static Action<string, Vector2> OnMouseHover; //string is the mesage we want to display and Vector2 being the position want to display it ie: the mouse position
+    public static Action<string, Vector2> OnMouseHover; //string is the message we want to display and Vector2 being the position want to display it ie: the mouse position
     public static Action OnMouseLoseFocus;  //to disable the tip focus
     // Start is called before the first frame update
     void Start()
@@ -21,14 +21,14 @@ public class HoverTipManager : MonoBehaviour
     {
         //whenever OnMouseHover is activated : I also want to subscribe my ShowTip method
         OnMouseHover += ShowTip;
-        OnMouseLoseFocus += HideTip;     
+        OnMouseLoseFocus += HideTip;
     }
 
     private void OnDisable()
     {
         //-= so we don't end up with any Null reference exceptions
         OnMouseHover -= ShowTip;
-        OnMouseLoseFocus -= HideTip; 
+        OnMouseLoseFocus -= HideTip;
 
     }
 
@@ -38,7 +38,7 @@ public class HoverTipManager : MonoBehaviour
         //make backgroundbox scale dynamically to fit the text, no matter how wide or tall it is
         //interrogate our text, to see how long this message that we've passed in actually is. But also gonna take into consideration that 200pix max width. Use a ternary operator here
         //if my tipText preferredWidth is greather than 200 then set it the width to 200. If not, then use actual preferredWidth. Next parameter sets automatically to preferredHeight.
-        tipWindow.sizeDelta = new Vector2(tipText.preferredWidth > 200 ? 200 : tipText.preferredWidth, tipText.preferredHeight);
+        tipWindow.sizeDelta = new Vector2(tipText.preferredWidth > 1000 ? 1000 : tipText.preferredWidth, tipText.preferredHeight);
 
         tipWindow.gameObject.SetActive(true);
 

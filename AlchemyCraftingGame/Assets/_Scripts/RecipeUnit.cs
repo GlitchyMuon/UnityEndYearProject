@@ -39,15 +39,14 @@ public class RecipeUnit : MonoBehaviour
         // Set the associated ScriptableObject. Now RecipeListLinkToSO knows the associated ScriptableObject
         GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
 
+        //Update the TextMeshPro text
         //Following if check used, since making recipeNameTMP into public and assigning the TextMeshProUGUI on the RecipeUnit script on the parent (RecipeScrollImage) of my prefab doesn't work, neither putting on the TextMeshPro child
         if (recipeNameTMP == null)
         {
             recipeNameTMP = GetComponentInChildren<TextMeshProUGUI>();
         }
-        recipeNameTMP.SetText($"{recipe.RecipeName}");
-        //Update the TextMeshPro text
         // Set Recipe Name in TextMeshPro
-        //recipeNameTMP.text = recipe.RecipeName;
-        // recipeNameTMP.SetText($"{recipe.RecipeName}");   //this line if put here : instanciates Wrong number of recipes (onmy 1) And no text change either
+        recipeNameTMP.SetText($"{recipe.RecipeName}");
+
     }
 }
