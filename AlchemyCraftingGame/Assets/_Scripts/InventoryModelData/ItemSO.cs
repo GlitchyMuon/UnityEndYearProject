@@ -26,6 +26,13 @@ public class ItemSO : ScriptableObject
         Wind = 6
     }
 
+    public enum ItemType 
+    {
+        Creatures,
+        CrystalAndGemstones,
+        Flowers,
+        HerbsAndRoots,
+    }
 
     // [field : SerializeField]
 
@@ -40,21 +47,21 @@ public class ItemSO : ScriptableObject
     public string Name { get; set; }
 
     /// <summary>
-    /// Spefificies an item type. String type.
+    /// Spefificies an item type. Enum type.
     /// </summary>
-    /// <value>Herb, Flower, Gemstone or Creature</value>
+    /// <value>Creature, Crystal or Gemstone, Flower, Herb or Root</value>
     [field: SerializeField]
-    public string ItemType { get; set; }
+    public ItemType IngredientType;
 
     // /// <summary>
-    // /// Elemental type of the item
+    // /// Elemental type of the item. String type.
     // /// </summary>
     // /// <value>Moon, Sun, Time, Earth, Wind, Electricity, Fire or Water</value>
     // [field : SerializeField]
     // public string ElementType { get; set; }
 
     /// <summary>
-    /// Elemental type of the item
+    /// Elemental type of the item. Enum type.
     /// </summary>
     /// <value>Moon, Sun, Time, Earth, Wind, Electricity, Fire or Water</value>
     [field: SerializeField]

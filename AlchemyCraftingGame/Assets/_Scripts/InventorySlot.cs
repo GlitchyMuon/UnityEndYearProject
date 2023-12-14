@@ -25,6 +25,9 @@ public class InventorySlot : MonoBehaviour
         // Set the associated ScriptableObject. Now DraggableItem knows the associated ScriptableObject
         GetComponentInChildren<DraggableItem>().associatedItemSO = item;
 
+        // Set data in HoverTip
+        GetComponentInChildren<HoverTip>().SetTooltipItemData(item);
+
         // Here, I'm just logging the item name for demonstration purposes
         Debug.Log("Item Name: " + item.Name);
     }

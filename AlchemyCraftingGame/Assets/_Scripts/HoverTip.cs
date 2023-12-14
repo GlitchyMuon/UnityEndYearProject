@@ -1,9 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
 
 public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -17,6 +20,14 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         Time = 5,
         Wind = 6
     }
+    
+    public enum ItemType 
+    {
+        Creatures,
+        CrystalAndGems,
+        Flowers,
+        HerbsAndRoots
+    }
 
     public enum TooltipType
     {
@@ -24,9 +35,18 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         Recipe
     }
 
+    //Tooltip related variables
     public TooltipType tooltipType;
     public string tipToShow;
     private float timeToWait = 0.5f;
+
+    //Recipe related variables
+    public Image recipeScrollImage; //Image component of the RecipeScroll prefab
+    public Image recipePotionImage;   //new Image component for displaying the PotionImage
+
+    public RecipeSO recipeSO; //Reference to the associated ScriptableObject
+
+    public ItemSO itemSO;
 
     // Reference to the associated ScriptableObject
     public ScriptableObject associatedSO;
@@ -92,26 +112,31 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         switch (tooltipType)
         {
             case TooltipType.Item:
-                if (TryGetComponentInChildren(out ItemSO itemSO))
+                if (associatedSO is ItemSO itemSO)  //associatedSO is ItemSO itemSO
+                //TryGetComponentInChildren(out ItemSO itemSO
                 {
                     Debug.Log("Item tooltip");
                     string[] elementNames = Enum.GetNames(typeof(ElementalType));
                     string elementName = itemSO.ElementType.ToString();
 
-                    return $"Item: {itemSO.Name}\nType: {itemSO.ItemType}\nElementType: {elementName}\n Description: {itemSO.Description}";
-                    //Element: {itemSO.ElementalType.ToFriendlyString()}\n
-                    //doesn't work
+                    string[] ingredientTypes = Enum.GetNames(typeof(ItemType));
+                    string ingredientType = itemSO.IngredientType.ToString();
+
+                    return $"Item: {itemSO.Name}\nType: {ingredientType}\nElementType: {elementName}\n Description: {itemSO.Description}";    //itemSO.ItemType
                 }
                 break;
 
             case TooltipType.Recipe:
-                if (TryGetComponentInChildren(out RecipeSO recipeSO))
+                if (associatedSO is RecipeSO recipeSO)//associatedSO is RecipeSO recipeSO
+                //TryGetComponentInChildren(out RecipeSO recipeSO)
                 {
                     Debug.Log("Recipe tooltip");
+                    //SetRecipeData();
                     string[] elementNames = Enum.GetNames(typeof(ElementalType));
                     string elementName = recipeSO.ElementType.ToString();
                     // Explicitly specify the type of array elements
                     string ingredients = string.Join(", ", recipeSO.Ingredient.Select(ingredient => ingredient.Name));
+
                     return $"Recipe: {recipeSO.RecipeName}\nIngredients: {ingredients}\nElementType: {elementName}\nDescription: {recipeSO.Description}";
                 }
                 break;
@@ -119,6 +144,32 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         return "Invalid tooltip content";   //goes right to this statement. Need to  Debug.Log in cases
     }
+
+    public void SetTooltipItemData(ItemSO item)
+    {
+        associatedSO = item;
+    }
+
+    public void SetTooltipRecipeData(RecipeSO recipe)
+    {
+        associatedSO = recipe;
+    }
+
+    // public void SetRecipeData(RecipeSO recipe)
+    // {
+    //     //Retain the original sprite of the recipe scroll image
+    //     //recipeScrollImage.sprite = GetComponent<Image>().sprite;
+
+    //     //Assign the PotionImage to the new Image component
+    //     //recipePotionImage.sprite = recipe.PotionImage;
+
+    //     // Set the associated ScriptableObject. Now RecipeListLinkToSO knows the associated ScriptableObject
+    //     GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
+    // }
+
+    
+
+
 
     private bool TryGetComponentInChildren<T>(out T component) where T : class
     {

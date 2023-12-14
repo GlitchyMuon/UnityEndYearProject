@@ -48,5 +48,8 @@ public class RecipeUnit : MonoBehaviour
         // Set Recipe Name in TextMeshPro
         recipeNameTMP.SetText($"{recipe.RecipeName}");
 
+        //Set data in HoverTip
+        GetComponentInChildren<HoverTip>().SetTooltipRecipeData(recipe);
     }
+
 }
