@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
+  m_Name: Zany Zinger Elixir
+  m_EditorClassIdentifier: 
+  <RecipeName>k__BackingField: Zany Zinger Elixir
+  <Ingredient>k__BackingField:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  <ElementType>k__BackingField: 
+  <Description>k__BackingField: '
+
+    Effect: Summons a mischievous breeze that
+    rearranges the hairstyles of everyone in the vicinity. The wind whispers silly
+    jokes to the affected individuals.'
+  <PotionImage>k__BackingField: {fileID: -192324467, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

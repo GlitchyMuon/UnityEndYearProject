@@ -16,6 +16,8 @@ public class MagicCircleSlotContentManager : MonoBehaviour
     {
         DraggableItem[] ingredients = FindObjectsOfType<DraggableItem>();
 
+        //RecipeSO assignedRecipe = currentRecipe != null ? currentRecipe.assignedRecipe : null;
+
     }
 
     void CheckElementalType()
