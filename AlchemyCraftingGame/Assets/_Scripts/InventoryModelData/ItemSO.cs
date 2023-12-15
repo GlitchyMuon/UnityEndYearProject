@@ -22,8 +22,9 @@ public class ItemSO : ScriptableObject
         Electricity = 2,
         Earth = 3,
         Moon = 4,
-        Time = 5,
-        Wind = 6
+        Water = 5,
+        Time = 6,
+        Wind = 7
     }
 
     public enum ItemType 

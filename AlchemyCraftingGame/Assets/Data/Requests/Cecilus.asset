@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed49eb6b74fb80408dcf6c8ee6fc000, type: 3}
   m_Name: Cecilus
   m_EditorClassIdentifier: 
-  <VillagerName>k__BackingField: 
-  <Description>k__BackingField: 
+  <VillagerName>k__BackingField: Cecilus
+  <Description>k__BackingField: '""'
+  <AssignedRecipe>k__BackingField: {fileID: 0}

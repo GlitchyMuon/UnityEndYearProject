@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
+  m_Name: Levitation Libation
+  m_EditorClassIdentifier: 
+  <RecipeName>k__BackingField: 
+  <Ingredient>k__BackingField:
+  - {fileID: 0}
+  - {fileID: 0}
+  <ElementType>k__BackingField: 
+  <Description>k__BackingField: 'Ingredients:
+
+    Giggling Geyser Water
+
+    Chucklewort
+    Petals
+
+    
+
+    Levitation Lichen
+
+    Effect: Grants the drinker the ability
+    to float a few inches above the ground for a limited time. Causes uncontrollable
+    laughter.'
+  <PotionImage>k__BackingField: {fileID: 601626747, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}
