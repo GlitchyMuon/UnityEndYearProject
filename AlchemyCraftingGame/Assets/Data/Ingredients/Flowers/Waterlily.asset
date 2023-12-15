@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Waterlily
   m_EditorClassIdentifier: 
-  element: 0
   <Name>k__BackingField: Waterlily
-  <ItemType>k__BackingField: Flower
+  IngredientType: 0
+  ElementType: 5
   <Description>k__BackingField: "Named after the Greek nymph, the Water Lily is a
     symbol of beauty that can also have a dangerous side. It\u2019s also a symbol
     of unity and finding peace and balance. For Buddhists, it symbolizes rising up

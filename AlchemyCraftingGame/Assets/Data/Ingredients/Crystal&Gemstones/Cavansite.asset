@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Cavansite
   m_EditorClassIdentifier: 
-  <IsStackable>k__BackingField: 0
-  <MaxStackSize>k__BackingField: 1
   <Name>k__BackingField: Cavansite
-  <ItemType>k__BackingField: Crystal&Gemstone
-  <ElementalType>k__BackingField: Wind
+  IngredientType: 0
+  ElementType: 4
   <Description>k__BackingField: 'The powerful energies that radiate off of Cavansite
     help attune us to frequencies of higher dimensions, realms, and beings. Placing
     this stone on your bedside each night before you sleep will help provide clarity

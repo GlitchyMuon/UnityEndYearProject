@@ -16,6 +16,7 @@ MonoBehaviour:
   <Ingredient>k__BackingField:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 11400000, guid: a4004c65fe69ec7498e67ec79bab8451, type: 2}
   <ElementType>k__BackingField: 
   <Description>k__BackingField: 'Ingredients:
 
@@ -24,11 +25,13 @@ MonoBehaviour:
     Chucklewort
     Petals
 
-    
+    Aventurine
+
+
 
     Levitation Lichen
 
-    Effect: Grants the drinker the ability
-    to float a few inches above the ground for a limited time. Causes uncontrollable
-    laughter.'
+    Effect: Grants the drinker
+    the ability to float a few inches above the ground for a limited time. Causes
+    uncontrollable laughter.'
   <PotionImage>k__BackingField: {fileID: 601626747, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}
