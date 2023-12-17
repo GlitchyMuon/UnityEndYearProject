@@ -7,33 +7,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+public enum TooltipType
+{
+    Item,
+    Recipe
+}
 
 public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public enum ElementalType
-    {
-        Sun = 0,
-        Fire = 1,
-        Electricity = 2,
-        Earth = 3,
-        Moon = 4,
-        Time = 5,
-        Wind = 6
-    }
-    
-    public enum ItemType 
-    {
-        Creatures,
-        CrystalAndGems,
-        Flowers,
-        HerbsAndRoots
-    }
-
-    public enum TooltipType
-    {
-        Item,
-        Recipe
-    }
 
     //Tooltip related variables
     public TooltipType tooltipType;
@@ -41,12 +22,12 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private float timeToWait = 0.5f;
 
     //Recipe related variables
-    public Image recipeScrollImage; //Image component of the RecipeScroll prefab
-    public Image recipePotionImage;   //new Image component for displaying the PotionImage
+    // public Image recipeScrollImage; //Image component of the RecipeScroll prefab
+    // public Image recipePotionImage;   //new Image component for displaying the PotionImage
 
-    public RecipeSO recipeSO; //Reference to the associated ScriptableObject
+    // public RecipeSO recipeSO; //Reference to the associated ScriptableObject
 
-    public ItemSO itemSO;
+    // public ItemSO itemSO;
 
     // Reference to the associated ScriptableObject
     public ScriptableObject associatedSO;
@@ -55,19 +36,20 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     private void Awake()
     {
-        // Try to get the associated SO from the parent or children components
-        TryGetComponentInChildren(out associatedSO);
+        
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!isDragging)
-        {
-            //StopCoroutine(StartTimer()); //check if better to put a boolean ?
-            StopCoroutine(StartTimer());
-            //StopAllCoroutines();
-            StartCoroutine(StartTimer());
-        }
+        //! this is better formatting than scoping
+        // 1. It is clearer and cleaner
+        // 2. it is a bit shorter to evaluate because it never looks after the scope at all
+        if (isDragging) return;
+
+        //StopCoroutine(StartTimer()); //check if better to put a boolean ?
+        StopCoroutine(StartTimer());
+        //StopAllCoroutines();
+        StartCoroutine(StartTimer());
         //Debug.Log("Hovered");
     }
 
@@ -122,7 +104,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     string[] ingredientTypes = Enum.GetNames(typeof(ItemType));
                     string ingredientType = itemSO.IngredientType.ToString();
 
-                    return $"Item: {itemSO.Name}\nType: {ingredientType}\nElementType: {elementName}\n Description: {itemSO.Description}";    //itemSO.ItemType
+                    return $"<b>Item:</b> {itemSO.Name}\n<b>Type:</b> {ingredientType}\n<b>ElementType:</b>  {elementName}\n <b>Description:</b>  {itemSO.Description}";    //itemSO.ItemType
                 }
                 break;
 
@@ -137,7 +119,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     // Explicitly specify the type of array elements
                     string ingredients = string.Join(", ", recipeSO.Ingredient.Select(ingredient => ingredient.Name));
 
-                    return $"Recipe: {recipeSO.RecipeName}\nIngredients: {ingredients}\nElementType: {elementName}\nDescription: {recipeSO.Description}";
+                    return $"<b>Recipe:</b> {recipeSO.RecipeName}\n<b>Ingredients:</b> {ingredients}\n<b>ElementType:</b> {elementName}\n<b>Description:</b> {recipeSO.Description}";
                 }
                 break;
         }
@@ -167,15 +149,6 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     //     GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
     // }
 
-    
-
-
-
-    private bool TryGetComponentInChildren<T>(out T component) where T : class
-    {
-        component = GetComponentInChildren<T>(true);
-        return component != null;
-    }
 
     // // Called when the user clicks on the UI element (can be used for item confirmation or recipe selection)
     // public void OnPointerClick()
