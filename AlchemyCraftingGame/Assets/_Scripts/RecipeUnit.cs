@@ -7,11 +7,17 @@ using TMPro;
 //[RequireComponent(typeof(TMP_Text))]
 public class RecipeUnit : MonoBehaviour
 {
-    public Image recipeScrollImage; //Image component of the RecipeScroll prefab
+    // public Image recipeScrollImage; //Image component of the RecipeScroll prefab
     public Image recipePotionImage;   //new Image component for displaying the PotionImage
 
-    public RecipeSO recipeSO; //Reference to the associated ScriptableObject
+    // [HideInInspector]
+    // public RecipeSO recipeSO; //Reference to the associated ScriptableObject
     public TextMeshProUGUI recipeNameTMP;  //wasn't TMP_Text !
+
+    void Awake()
+    {
+
+    }
     void Start()
     {
         recipeNameTMP = GetComponentInChildren<TextMeshProUGUI>(); //or TMP_Text ?
@@ -30,8 +36,8 @@ public class RecipeUnit : MonoBehaviour
     // }
     public void SetRecipeData(RecipeSO recipe)
     {
-        //Retain the original sprite of the recipe scroll image
-        recipeScrollImage.sprite = GetComponent<Image>().sprite;
+        // //Retain the original sprite of the recipe scroll image
+        // recipeScrollImage.sprite = GetComponent<Image>().sprite;
 
         //Assign the PotionImage to the new Image component
         recipePotionImage.sprite = recipe.PotionImage;
@@ -40,7 +46,8 @@ public class RecipeUnit : MonoBehaviour
         GetComponentInChildren<RecipeListLinkToSO>().associatedRecipeSO = recipe;
 
         //Update the TextMeshPro text
-        //Following if check used, since making recipeNameTMP into public and assigning the TextMeshProUGUI on the RecipeUnit script on the parent (RecipeScrollImage) of my prefab doesn't work, neither putting on the TextMeshPro child
+        // Following if check used, since making recipeNameTMP into public and assigning the TextMeshProUGUI on
+        // the RecipeUnit script on the parent (RecipeScrollImage) of my prefab doesn't work, neither putting on the TextMeshPro child
         if (recipeNameTMP == null)
         {
             recipeNameTMP = GetComponentInChildren<TextMeshProUGUI>();

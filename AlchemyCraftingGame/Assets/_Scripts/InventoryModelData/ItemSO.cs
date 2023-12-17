@@ -1,20 +1,7 @@
+using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-// namespace Inventory.Model
-// {
-
-public static class EnumExtensions
-{
-    public static string ToFriendlyString(this ItemSO.ElementalType element)
-    {
-        return ItemSO.ElementalType.GetName(element.GetType(), element);
-    }
-}
-[CreateAssetMenu(fileName = "Ingredient Data", menuName = "ScriptableObjects/Item SO")]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
-public class ItemSO : ScriptableObject
-{
     public enum ElementalType
     {
         Sun = 0,
@@ -34,6 +21,9 @@ public class ItemSO : ScriptableObject
         Flowers,
         HerbsAndRoots,
     }
+[CreateAssetMenu(fileName = "Ingredient Data", menuName = "ScriptableObjects/Item SO")]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
+public class ItemSO : ScriptableObject
+{
 
     // [field : SerializeField]
 
@@ -69,7 +59,7 @@ public class ItemSO : ScriptableObject
     public ElementalType ElementType;
 
     [field: SerializeField]
-    [field: TextArea]
+    [field: TextArea(5, 10)]
     public string Description { get; set; }
 
     [field: SerializeField]

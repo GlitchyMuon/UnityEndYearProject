@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//RecipeInstantiator
 public class RecipeListLinkToSO : MonoBehaviour
 {
     public GameObject recipePrefab;
@@ -18,6 +19,8 @@ public class RecipeListLinkToSO : MonoBehaviour
         // Find the GridLayoutGroup if it's not assigned in the Inspector
         if (gridLayoutGroup == null)
         {
+            //! this is super wrong lol
+            // it is going to fetch the first object of that type, it does work just by chance
             gridLayoutGroup = FindObjectOfType<GridLayoutGroup>();
 
             if (gridLayoutGroup == null)
@@ -29,7 +32,6 @@ public class RecipeListLinkToSO : MonoBehaviour
         InstantiateRecipes();
     }
 
-    [HideInInspector]
     void InstantiateRecipes()
     {
         foreach (RecipeSO recipe in recipes)
