@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 6689665379153423030}
   - component: {fileID: 6770418280143960518}
   m_Layer: 5
-  m_Name: Accept  Request Button
+  m_Name: Accept Request Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

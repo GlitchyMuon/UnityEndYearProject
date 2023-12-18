@@ -15,5 +15,16 @@ MonoBehaviour:
   <Name>k__BackingField: 
   IngredientType: 3
   ElementType: 0
-  <Description>k__BackingField: 
+  <Description>k__BackingField: 'In the magical realm of natural hair care, the enchanting
+    ritual begins by harvesting the fruit pods, leaves, and bark of a mystical plant.
+    These sacred ingredients are carefully dried, ground into a powder, and transformed
+    into a whimsical paste. Unlike ordinary shampoos with their mundane lather, this
+    sacred concoction, while not frothy, possesses potent cleansing powers. With
+    a gentle touch and a naturally low pH, it dances on hair, leaving behind the
+    essence of enchantment without stripping away precious natural oils. Legends
+    speak of using an infusion of the leaves to banish the mischievous flakes of
+    dandruff, ensuring a crowning glory fit for a fairy tale.
+
+    Traditionnally
+    used for shampoo since 4500-4300 years ago.'
   <ItemImage>k__BackingField: {fileID: 21300000, guid: 3b386afeba4510b40ba98cf9c457dc2a, type: 3}

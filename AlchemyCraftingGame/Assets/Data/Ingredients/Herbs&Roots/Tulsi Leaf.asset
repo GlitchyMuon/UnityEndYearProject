@@ -14,6 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: 
   IngredientType: 3
-  ElementType: 0
-  <Description>k__BackingField: 
-  <ItemImage>k__BackingField: {fileID: 0}
+  ElementType: 2
+  <Description>k__BackingField: In the enchanted lore of botanical wonders, Tulsi
+    leaves emerge as mystical guardians of hair vitality. Harvested from sacred basil
+    plants, these verdant jewels are known to weave a spell of rejuvenation upon
+    tresses. When dried and transformed into an elixir, the essence of Tulsi unveils
+    a magical potion for hair care. With whispers of ancient secrets, this potion,
+    when applied, sparks upon strands, bestowing a lustrous sheen and a touch of
+    botanical enchantment. Tulsi, the guardian of locks, is said to weave a tapestry
+    of strength, ensuring that every strand is cradled in the embrace of natural
+    radiance and mystical resilience.
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 37f391cc8e71cb248936406ac3230edd, type: 3}

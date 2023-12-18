@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bird
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Bird
-  <ItemType>k__BackingField: Creatures
-  <ElementalType>k__BackingField: Wind
+  IngredientType: 0
+  ElementType: 5
   <Description>k__BackingField: A common bird from the Corvus family.
   <ItemImage>k__BackingField: {fileID: 1014022464, guid: e2d3524f2f54ba6478bd39e2f716932a, type: 3}

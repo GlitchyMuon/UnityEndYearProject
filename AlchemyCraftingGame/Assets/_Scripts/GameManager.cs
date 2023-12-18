@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MagicCircleSlotContentManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     // Reference to the dropped item
     public ItemSO droppedItem;

@@ -86,6 +86,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private void ShowMessage()
     {
         string tipToShow = GetTipToShow();
+        //HoverTipManager.OnMouseHover?.Invoke(tipToShow, Input.mousePosition);
         HoverTipManager.OnMouseHover(tipToShow, Input.mousePosition);
     }
 
@@ -112,7 +113,6 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 if (associatedSO is RecipeSO recipeSO)//associatedSO is RecipeSO recipeSO
                 //TryGetComponentInChildren(out RecipeSO recipeSO)
                 {
-                    Debug.Log("Recipe tooltip");
                     //SetRecipeData();
                     string[] elementNames = Enum.GetNames(typeof(ElementalType));
                     string elementName = recipeSO.ElementType.ToString();

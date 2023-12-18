@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Toad
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Toad
-  <ItemType>k__BackingField: Creatures
-  <ElementalType>k__BackingField: Water
+  IngredientType: 0
+  ElementType: 5
   <Description>k__BackingField: "I\u2019m sure when you picture a Toad you see a
     wrinkly, brown, ugly creature. In reality, these frogs come in a variety of shapes,
     sizes, and colors. Ok, some species are admittedly a tad ugly, but they are all

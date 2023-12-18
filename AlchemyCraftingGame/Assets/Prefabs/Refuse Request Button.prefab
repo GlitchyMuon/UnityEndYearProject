@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8552744405977756625}
   - component: {fileID: 7178141207546573935}
   m_Layer: 5
-  m_Name: Refuse  Request Button (1)
+  m_Name: Refuse Request Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

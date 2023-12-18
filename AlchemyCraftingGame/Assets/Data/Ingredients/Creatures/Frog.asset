@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Frog
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Frog
-  <ItemType>k__BackingField: Creatures
-  <ElementalType>k__BackingField: Water
+  IngredientType: 0
+  ElementType: 5
   <Description>k__BackingField: "Frogs aren't distinguishable by their size (don't
     think that a big frog is a toad !)\nThe biggest frog in the world is the Goliath
     frog. It lives in West Africa and can measure more than a foot in length and
