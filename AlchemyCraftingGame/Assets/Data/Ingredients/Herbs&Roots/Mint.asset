@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
+  m_Name: Mint
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Mint
+  IngredientType: 3
+  ElementType: 4
+  <Description>k__BackingField: In the enchanted apothecary, mint emerges as a digestive
+    sorcerer. Plucked beneath the moon's glow, its leaves craft elixirs that whisper
+    of balance. Mint, the healer of the digestive kingdom, is a guardian of well-being,
+    ensuring that every sip or nibble becomes a magical journey of comfort and serenity,
+    as it soothes the belly's turbulent seas, for those who partake in its herbal
+    symphony.
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: cce3ff36758d83149b10b630dc124124, type: 3}

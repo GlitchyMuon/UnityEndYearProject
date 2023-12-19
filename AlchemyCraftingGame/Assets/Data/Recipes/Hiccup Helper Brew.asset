@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
+  m_Name: Hiccup Helper Brew
+  m_EditorClassIdentifier: 
+  <RecipeName>k__BackingField: Hiccup Helper Brew
+  <Ingredient>k__BackingField:
+  - {fileID: 11400000, guid: b5d086c2b5dbc8141a86d9e9984d162f, type: 2}
+  - {fileID: 11400000, guid: baccccc62e942654e841d4b5c681611e, type: 2}
+  - {fileID: 11400000, guid: cc2562378a58b294a908c6ec502e45b8, type: 2}
+  <ElementType>k__BackingField: 030000000400000000000000
+  <Description>k__BackingField: 'Ingredients :
+
+    Bubbling Burdock Brew
+
+    Mint
+
+    Giggly
+    Ginger Root
+
+
+    Effects :
+
+    Cures hiccups instantly, but the person hiccuping
+    will temporarily emit bubbles and emit a melodious tune with each hiccup.'
+  <PotionImage>k__BackingField: {fileID: 396071507, guid: 9450b2430f31a3645b3caf5a6136950f, type: 3}

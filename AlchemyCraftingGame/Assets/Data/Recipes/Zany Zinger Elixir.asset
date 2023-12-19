@@ -14,13 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <RecipeName>k__BackingField: Zany Zinger Elixir
   <Ingredient>k__BackingField:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  <ElementType>k__BackingField: 
-  <Description>k__BackingField: '
+  - {fileID: 11400000, guid: 1c1b7dbf15d7c694aa88cac1bbc0c35d, type: 2}
+  - {fileID: 11400000, guid: c630c68837c78654c9c835fe6081dac2, type: 2}
+  - {fileID: 11400000, guid: b9e64ece1ab404a439fc5a63ce003e39, type: 2}
+  <ElementType>k__BackingField: 000000000200000007000000
+  <Description>k__BackingField: 'Ingredients :
 
-    Effect: Summons a mischievous breeze that
-    rearranges the hairstyles of everyone in the vicinity. The wind whispers silly
-    jokes to the affected individuals.'
+    Shikakai Bark
+
+    Tulsi Leaf
+
+    Mischievous
+    Mist
+
+    Effect: Summons a mischievous breeze that rearranges the hairstyles
+    of everyone in the vicinity. The wind whispers silly jokes to the affected individuals.
+
+    A
+    light-hearted way to bring joy to social gatherings. Often used in beauty salons
+    for whimsical hair styling.'
   <PotionImage>k__BackingField: {fileID: -192324467, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

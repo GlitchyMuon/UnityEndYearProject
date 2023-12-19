@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
+  m_Name: Mischievous Mist
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Mischievous Mist
+  IngredientType: 4
+  ElementType: 7
+  <Description>k__BackingField: HHarvested on moonlit nights from the clandestine
+    veil between worlds, this elusive mist is a trickster's delight. With a touch
+    of its ephemeral charm, it enchants brews, veiling them in a playful mystique.
+    As it dances in the alchemical symphony, the Mischievous Mist imparts a sense
+    of whimsy, inviting the spirits of mischief to join the concoction. Beware, for
+    this ethereal prankster adds a teasing twist to every spell it graces.
+  <ItemImage>k__BackingField: {fileID: -1700080139, guid: 9450b2430f31a3645b3caf5a6136950f, type: 3}

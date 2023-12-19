@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
+  m_Name: Amazonite
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Amazonite
+  IngredientType: 1
+  ElementType: 5
+  <Description>k__BackingField: 'Amazonite inspires hope, playfulness, and a care-free
+    attitude. This happiness crystal helps us access our inner truth and personal
+    power, allowing us to step into our authenticity and empowering us to live life
+    to the fullest.
+
+    It helps us enjoy happier relationships by improving our
+    communication skills and our understanding of others.'
+  <ItemImage>k__BackingField: {fileID: -254362281, guid: 1af5241cfadbe784d871a1e7357c109d, type: 3}

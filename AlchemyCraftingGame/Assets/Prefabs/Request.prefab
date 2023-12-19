@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3624722226587835046}
   - component: {fileID: 9078021912336970162}
   - component: {fileID: 3085245344568782749}
-  - component: {fileID: 8923067465668723651}
+  - component: {fileID: 3630068024226327644}
   m_Layer: 5
   m_Name: Request
   m_TagString: Untagged
@@ -134,7 +134,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8923067465668723651
+--- !u!114 &3630068024226327644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,6 +158,8 @@ GameObject:
   - component: {fileID: 7692769203282207191}
   - component: {fileID: 3050874907848592571}
   - component: {fileID: 8928426930120314767}
+  - component: {fileID: 3710664303123397333}
+  - component: {fileID: 7223321244700652605}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -212,10 +214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Request from : Firyal
-
-    "I''d like to be able to focus for a few hours
-    to crunch !"'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c9c2a43f1ef9fc448609981007715e2, type: 2}
   m_sharedMaterial: {fileID: -2469171355757090101, guid: 0c9c2a43f1ef9fc448609981007715e2, type: 2}
@@ -242,7 +241,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.1
+  m_fontSize: 18
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -284,3 +283,32 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3710664303123397333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102299702209915073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0baabb22d5a4374d86f0e69e4731a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestText: {fileID: 8928426930120314767}
+--- !u!114 &7223321244700652605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102299702209915073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf0ddb5fe9b49843a9a4025c2928c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestPrefab: {fileID: 0}
+  gridLayoutGroup: {fileID: 0}
+  associatedRequestSO: {fileID: 0}
+  requests: []

@@ -14,8 +14,9 @@ public class RecipeSO : ScriptableObject
         Electricity = 2,
         Earth = 3,
         Moon = 4,
-        Time = 5,
-        Wind = 6
+        Water = 5,
+        Time = 6,
+        Wind = 7,
     }
 
 
@@ -62,7 +63,7 @@ public class RecipeSO : ScriptableObject
     public ElementalType[] ElementType { get; set; }
 
     [field: SerializeField]
-    [field: TextArea]
+    [field: TextArea(5, 30)]
     /// <summary>
     /// Description of recipe
     /// </summary>

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RequestUnit : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class RequestUnit : MonoBehaviour
         {
             requestText = GetComponentInChildren<TextMeshProUGUI>();
         }
-        requestText.SetText($"Request from <b>{request.VillagerName}</b>\n'{request.Description}'");
+        requestText.SetText($"Request from <b>{request.VillagerName}</b>\n{request.Description} : ");
 
     }
 }

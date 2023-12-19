@@ -2,25 +2,26 @@ using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-    public enum ElementalType
-    {
-        Sun = 0,
-        Fire = 1,
-        Electricity = 2,
-        Earth = 3,
-        Moon = 4,
-        Water = 5,
-        Time = 6,
-        Wind = 7
-    }
+public enum ElementalType
+{
+    Sun = 0,
+    Fire = 1,
+    Electricity = 2,
+    Earth = 3,
+    Moon = 4,
+    Water = 5,
+    Time = 6,
+    Wind = 7
+}
 
-    public enum ItemType 
-    {
-        Creatures,
-        CrystalAndGemstones,
-        Flowers,
-        HerbsAndRoots,
-    }
+public enum ItemType
+{
+    Creatures,
+    CrystalAndGemstones,
+    Flowers,
+    HerbsAndRoots,
+    FluidsAndGas
+}
 [CreateAssetMenu(fileName = "Ingredient Data", menuName = "ScriptableObjects/Item SO")]   //will create an asset menu option from ItemSO inside the CreateAsset Menu
 public class ItemSO : ScriptableObject
 {

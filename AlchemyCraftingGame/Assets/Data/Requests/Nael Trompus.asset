@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Nael Trompus
   m_EditorClassIdentifier: 
   <VillagerName>k__BackingField: Nael Trompus
-  <Description>k__BackingField: '"The weather is so dull, I''d like some whimsical
-    hair color change !"'
-  <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: 91a7407aae6020241b31e363c0e80e6a, type: 2}
+  <Description>k__BackingField: "\xAB The weather is so dull, I'd like some whimsical
+    hair color change ! \xBB"
+  <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: a8a3fb9e3b5fe1f4fa879fe795118fdf, type: 2}

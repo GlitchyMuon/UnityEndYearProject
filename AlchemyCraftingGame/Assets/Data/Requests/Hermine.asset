@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hermine
   m_EditorClassIdentifier: 
   <VillagerName>k__BackingField: Hermine
-  <Description>k__BackingField: '"I have an infestation in my garden and of course
-    they feast on my beautiful roses but leave my stinky rafflesia alone. Help !"'
+  <Description>k__BackingField: "\xAB I have an infestation in my garden and of course
+    they feast on my beautiful roses but leave my stinky rafflesia alone. Help !
+    \xBB"
   <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: 4caec1e0e3da8da4ba05753db391cbea, type: 2}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cecilus
   m_EditorClassIdentifier: 
   <VillagerName>k__BackingField: Cecilus
-  <Description>k__BackingField: '""'
-  <AssignedRecipe>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: "\xAB\xBB"
+  <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: 4dff35088bb94ab43a97cf28b4439ba2, type: 2}

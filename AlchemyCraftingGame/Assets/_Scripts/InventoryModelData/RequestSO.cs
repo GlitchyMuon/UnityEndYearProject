@@ -11,7 +11,7 @@ public class RequestSO : ScriptableObject
     public string VillagerName { get; set; }
 
     [field: SerializeField]
-    [field: TextArea]
+    [field: TextArea(5, 30)]
     public string Description { get; set; }
 
     /// <summary>

@@ -16,12 +16,21 @@ public class RequestInstantiator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (gridLayoutGroup == null)
+        {
+            gridLayoutGroup = FindObjectOfType<GridLayoutGroup>();
+            if (gridLayoutGroup == null)
+            {
+                Debug.LogError("GridLayoutGroup not found. Make sure it is assigned or present in the scene.");
+                return;
+            }
+        }
+        InstantiateRequests();
     }
 
     void InstantiateRequests()
-    {   
-        foreach (RequestSO request in requests) 
+    {
+        foreach (RequestSO request in requests)
         {
             //Instantiate the requests as new GameObjects
             GameObject newRequest = Instantiate(requestPrefab, gridLayoutGroup.transform);
@@ -29,7 +38,7 @@ public class RequestInstantiator : MonoBehaviour
             //Access the ScriptableObject data to the prefab script
             RequestUnit requestUnit = newRequest.GetComponent<RequestUnit>();
 
-            if(requestUnit != null)
+            if (requestUnit != null)
             {
                 //Assign the ScriptableObject data to the prefab script
                 requestUnit.SetRequestData(request);

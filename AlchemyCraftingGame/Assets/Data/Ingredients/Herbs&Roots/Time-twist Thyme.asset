@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
+  m_Name: Time-twist Thyme
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Time-Twist Thyme
+  IngredientType: 3
+  ElementType: 0
+  <Description>k__BackingField: Behold the Time-Twist Thyme, a sprig plucked from
+    the continuum's edge. Cultivated where the threads of past and future intertwine,
+    this enchanted herb is a time-bending maestro. Infused with the whispers of temporal
+    secrets, the Time-Twist Thyme lends its essence to potions with a flicker of
+    the ages. As it twirls in the brew, it weaves a chrono-dance, infusing concoctions
+    with a taste of the ages. Sip cautiously, for the Time-Twist Thyme holds the
+    power to add a temporal twist to every spell it graces, a herbaceous portal to
+    the mysteries of time itself.
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: a4b65bc482d33b541a17e3e91547032a, type: 3}
