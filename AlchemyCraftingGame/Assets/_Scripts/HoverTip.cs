@@ -36,7 +36,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     private void Awake()
     {
-        
+
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -83,14 +83,19 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         // Handle end of drag if needed
     }
 
-    private void ShowMessage()
+    private void ShowMessage(string tooltipText, bool isRecipeList)
     {
-        string tipToShow = GetTipToShow();
+        //trying this method for Recipe case to show to the left
         //HoverTipManager.OnMouseHover?.Invoke(tipToShow, Input.mousePosition);
-        HoverTipManager.OnMouseHover(tipToShow, Input.mousePosition);
+        // HoverTipManager.OnMouseHover?.Invoke(tipToShow, Input.mousePosition, isRecipeList);
+        HoverTipManager.OnMouseHover?.Invoke(tooltipText, Input.mousePosition, isRecipeList);
+
+        //original method
+        //string tipToShow = GetTipToShow();
+        //HoverTipManager.OnMouseHover(tipToShow, Input.mousePosition);
     }
 
-    private string GetTipToShow()
+    private (string, bool) GetTipToShow()
     {
         switch (tooltipType)
         {
@@ -105,7 +110,9 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     string[] ingredientTypes = Enum.GetNames(typeof(ItemType));
                     string ingredientType = itemSO.IngredientType.ToString();
 
-                    return $"<b>Item:</b> {itemSO.Name}\n<b>Type:</b> {ingredientType}\n<b>ElementType:</b>  {elementName}\n <b>Description:</b>  {itemSO.Description}";    //itemSO.ItemType
+                    string tooltipText = $"<b>Item:</b> {itemSO.Name}\n<b>Type:</b> {ingredientType}\n<b>ElementType:</b> {elementName}\n<b>Description:</b>  {itemSO.Description}";    //itemSO.ItemType
+
+                    return (tooltipText, false);
                 }
                 break;
 
@@ -118,13 +125,13 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     string elementName = recipeSO.ElementType.ToString();
                     // Explicitly specify the type of array elements
                     string ingredients = string.Join(", ", recipeSO.Ingredient.Select(ingredient => ingredient.Name));
-
-                    return $"<b>Recipe:</b> {recipeSO.RecipeName}\n<b>Ingredients:</b> {ingredients}\n<b>ElementType:</b> {elementName}\n<b>Description:</b> {recipeSO.Description}";
+                    string tooltipText = $"<b>Recipe:</b> {recipeSO.RecipeName}\n<b>Ingredients:</b> {ingredients}\n<b>ElementType:</b> {elementName}\n<b>Description:</b> {recipeSO.Description}";
+                    return (tooltipText, true);
                 }
                 break;
         }
 
-        return "Invalid tooltip content";   //goes right to this statement. Need to  Debug.Log in cases
+        return ("Invalid tooltip content", false);   //goes right to this statement. Need to  Debug.Log in cases
     }
 
     public void SetTooltipItemData(ItemSO item)
@@ -173,7 +180,10 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private IEnumerator StartTimer()
     {
         yield return new WaitForSeconds(timeToWait);
-        ShowMessage();
+        //original method:
+        //ShowMessage();
+        var (tooltipText, isRecipeList) = GetTipToShow();
+        ShowMessage(tooltipText, isRecipeList);
     }
 }
 

@@ -1922,7 +1922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceptRequestButton: {fileID: 0}
   refuseRequestButton: {fileID: 0}
-  activeRequest: {fileID: 0}
+  activeRequest: 0
 --- !u!1 &600916890
 GameObject:
   m_ObjectHideFlags: 0
@@ -10566,11 +10566,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
       propertyPath: m_fontSize
-      value: 31.9
+      value: 28.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
+      propertyPath: m_margin.w
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
       propertyPath: m_margin.x
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1454101995174096246, guid: 00bb583a66542364887fc2442caf3fc7, type: 3}
       propertyPath: m_margin.y
