@@ -10,27 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae5294da4ef8383489f47bf1d616b907, type: 3}
-  m_Name: Levitation Libation
+  m_Name: Levitation Libation Tonic
   m_EditorClassIdentifier: 
-  <RecipeName>k__BackingField: 
+  <RecipeName>k__BackingField: Levitation Libation Tonic
   <Ingredient>k__BackingField:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0a016318f14fcc146906cc0307787226, type: 2}
+  - {fileID: 11400000, guid: ccd1a13f40c51064cb8f5988cd0918ac, type: 2}
   - {fileID: 11400000, guid: a4004c65fe69ec7498e67ec79bab8451, type: 2}
-  <ElementType>k__BackingField: 
+  <ElementType>k__BackingField: 050000000300000007000000
   <Description>k__BackingField: 'Ingredients:
 
     Giggling Geyser Water
 
-    Chucklewort
-    Petals
+    Levitation
+    Lichen
 
     Aventurine
 
-    Levitation Lichen
-
-    Effect: Grants the drinker
-    the ability to float a few inches above the ground for a limited time. Causes
-    uncontrollable laughter.'
+    Effect: Grants the drinker the ability to float a
+    few inches above the ground for a limited time. Causes uncontrollable laughter.'
   <PotionImage>k__BackingField: {fileID: 601626747, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}

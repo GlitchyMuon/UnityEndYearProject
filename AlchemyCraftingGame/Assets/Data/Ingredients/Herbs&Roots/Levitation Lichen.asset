@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
+  m_Name: Levitation Lichen
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Levitation Lichen
+  IngredientType: 3
+  ElementType: 3
+  <Description>k__BackingField: "In the hidden corners of mystical forests, the Levitation
+    Lichen casts its ethereal glow upon the woodland floor. With hues that shimmer
+    like moonlit dreams, this enchanting lichen possesses a whimsical secret\u2014it
+    holds the power of levitation. When touched by the fingers of curious seekers,
+    it imparts a weightless sensation, allowing them to float above the earth's embrace.
+    Legends whisper of wizards and fairies weaving spells into the Levitation Lichen,
+    granting it the ability to defy gravity. Harvested under the glow of the floating
+    lanterns in the fairy realm, this magical lichen becomes a coveted ingredient,
+    adding an otherworldly lift to potions and elixirs alike."
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 3be64e406b6b5dc40a68d727e4220a52, type: 3}

@@ -17,9 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9a1115d6e98ede04e8c5896c4bbdf460, type: 2}
   - {fileID: 11400000, guid: 43a039943d8f2f24da70fef9e3324943, type: 2}
   - {fileID: 11400000, guid: 0ead7094d76b2fc4bacf0ed0c550d03c, type: 2}
+  <ElementType>k__BackingField: 070000000400000006000000
   <Description>k__BackingField: 'Ingredients :
 
-    Bird (Brain)
+    Corvus Bird
 
     Lunar Flower
 

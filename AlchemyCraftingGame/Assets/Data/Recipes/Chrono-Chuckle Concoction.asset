@@ -16,10 +16,10 @@ MonoBehaviour:
   <Ingredient>k__BackingField:
   - {fileID: 11400000, guid: a0558ddd41646f74caf298b479a0877f, type: 2}
   - {fileID: 11400000, guid: b27361c4dac165847873098efa9fd8c4, type: 2}
-  - {fileID: 0}
-  <ElementType>k__BackingField: 000000000500000000000000
-  <Description>k__BackingField: "Ingredients:\r\nTime-Twist Thyme\r\nAmazonite \r\nFuture
-    Folly Bird\nEffect: Sends the drinker a few seconds into the future, allowing
-    them to foresee immediate events. However, everything they witness is accompanied
+  - {fileID: 11400000, guid: 9a1115d6e98ede04e8c5896c4bbdf460, type: 2}
+  <ElementType>k__BackingField: 000000000500000004000000
+  <Description>k__BackingField: "Ingredients:\r\nTime-Twist Thyme\r\nAmazonite \r\nCorvus
+    Bird\nEffect: Sends the drinker a few seconds into the future, allowing them
+    to foresee immediate events. However, everything they witness is accompanied
     by hilarious sound effects."
-  <PotionImage>k__BackingField: {fileID: 0}
+  <PotionImage>k__BackingField: {fileID: -1270953909, guid: 2c49e8db764c80b4a9bb193635614fbc, type: 3}

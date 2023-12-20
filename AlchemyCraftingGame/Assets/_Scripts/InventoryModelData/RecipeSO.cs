@@ -19,11 +19,11 @@ public class RecipeSO : ScriptableObject
         Wind = 7,
     }
 
+    public int ID => GetInstanceID();
 
     [field: SerializeField]
     public string RecipeName { get; set; }
 
-    public int ID => GetInstanceID();
 
     [field: SerializeField]
 

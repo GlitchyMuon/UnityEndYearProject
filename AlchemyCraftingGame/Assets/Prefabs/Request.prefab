@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9078021912336970162}
   - component: {fileID: 3085245344568782749}
   - component: {fileID: 3630068024226327644}
+  - component: {fileID: 1366354336081093620}
   m_Layer: 5
   m_Name: Request
   m_TagString: Untagged
@@ -122,7 +123,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1366354336081093620}
         m_TargetAssemblyTypeName: OnClickConfirmPanel, Assembly-CSharp
         m_MethodName: ButtonClick
         m_Mode: 1
@@ -147,6 +148,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requestText: {fileID: 8928426930120314767}
+--- !u!114 &1366354336081093620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081145926441321618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a36a7f598f50047bd269844f3bd33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClickPanelPopup: {fileID: 0}
 --- !u!1 &5102299702209915073
 GameObject:
   m_ObjectHideFlags: 0

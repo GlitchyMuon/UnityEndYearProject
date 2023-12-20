@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Request Data", menuName = "ScriptableObjects/Request SO")]
 public class RequestSO : ScriptableObject
 {
-    public int ID => GetInstanceID();
+    public int ID => GetInstanceID();   //will return a unique instance ID for each instanciated scirptable object request So we can check and compare if we have an instance of "" object on our requestboard by detecting if we have an object with this ID already on our requestboard
 
     [field: SerializeField]
     public string VillagerName { get; set; }

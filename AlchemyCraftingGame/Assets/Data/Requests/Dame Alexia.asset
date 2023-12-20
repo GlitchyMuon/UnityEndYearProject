@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Dame Alexia
   m_EditorClassIdentifier: 
   <VillagerName>k__BackingField: Dame Alexia
-  <Description>k__BackingField: "\xAB\xBB"
-  <AssignedRecipe>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: "\xAB I occasionnaly am troubled with a hiccup. Can
+    you help me ?\xBB"
+  <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: fffc2d0c80abd7c44a1587d2c6dcaefb, type: 2}

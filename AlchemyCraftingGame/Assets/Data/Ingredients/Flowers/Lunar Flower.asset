@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lunar Flower
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Lunar Flower
-  IngredientType: 0
+  IngredientType: 2
   ElementType: 4
   <Description>k__BackingField: A white glowing flower. Blooms only during full moon
     nights.

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10f20197ca018b4e89b54d335dd3737, type: 3}
   m_Name: Purple Iris Petal
   m_EditorClassIdentifier: 
-  element: 0
   <Name>k__BackingField: Purple Iris Petal
-  <ItemType>k__BackingField: Flower
+  IngredientType: 2
+  ElementType: 0
   <Description>k__BackingField: 'Iris flower is considered as a representation of
     wisdom, elegance, faith, and royal happenings in life. The flower is known for
     its flawless beauty, attractive colors, and different varieties. Irises also

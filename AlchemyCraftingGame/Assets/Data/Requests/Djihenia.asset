@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ed49eb6b74fb80408dcf6c8ee6fc000, type: 3}
-  m_Name: Cecilus
+  m_Name: Djihenia
   m_EditorClassIdentifier: 
-  <VillagerName>k__BackingField: Cecilus
-  <Description>k__BackingField: "\xAB I have trouble reaching my highest cabinets,
-    it slows me down in my atelier when I need to complete my client's orders. \xBB"
-  <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: 4dff35088bb94ab43a97cf28b4439ba2, type: 2}
+  <VillagerName>k__BackingField: Djihenia
+  <Description>k__BackingField: "\xAB I'm a very anxious person. Can you help me
+    relieve my immediate worries ? \xBB"
+  <AssignedRecipe>k__BackingField: {fileID: 11400000, guid: b39dfe91c64009a42806de89a14e2ea3, type: 2}

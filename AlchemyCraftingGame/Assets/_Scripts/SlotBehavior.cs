@@ -3,19 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+
 public class SlotBehavior : MonoBehaviour, IDropHandler
 {
+    public ElementalType elementalType;
     public bool isInCircle = false;
     private MagicCircleSlotManager slotManager;
     private void Start()
     {
         // Find the SlotManager in the scene and assign it to the slotManager variable
-        if (isInCircle){
+        if (isInCircle)
+        {
             slotManager = FindObjectOfType<MagicCircleSlotManager>();
         }
     }
-    public void OnDrop(PointerEventData eventData){
-        if (transform.childCount == 0) { //if statement prevents from stacking two different items and prevents from being stuck between gridslots
+    public void OnDrop(PointerEventData eventData)
+    {
+        if (transform.childCount == 0)
+        { //if statement prevents from stacking two different items and prevents from being stuck between gridslots
             GameObject dropped = eventData.pointerDrag; //we get the object from which the pointer is dragging and we assign it to the dropped variable
             DraggableItem draggableItem = dropped.GetComponent<DraggableItem>();
             draggableItem.parentAfterDrag = transform;

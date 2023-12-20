@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     // Reference to the expected ElementalType for this slot
     public ElementalType expectedElementalType;    //need to point out the class where the enum is!
+
     // Start is called before the first frame update
     void Start()
     {

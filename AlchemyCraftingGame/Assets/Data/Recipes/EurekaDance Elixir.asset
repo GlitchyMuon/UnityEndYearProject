@@ -17,17 +17,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 81b1ff7fd498f174ebc12968176b383d, type: 2}
   - {fileID: 11400000, guid: a4004c65fe69ec7498e67ec79bab8451, type: 2}
   - {fileID: 11400000, guid: f40f34d04f3337747abc08741be13416, type: 2}
+  <ElementType>k__BackingField: 000000000700000005000000
   <Description>k__BackingField: 'Ingredients:
 
-    Ingenious Iris Petals
+    Purple Iris Petals
 
     Aventurine
     Crystal
 
-    Water Violet Essence
+    Water Violet
 
 
-    Effect: Sparks sudden bursts of creativity,
-    providing the drinker with ingenious ideas for a short duration. May also result
-    in impromptu interpretive dance sessions.'
+    Effect: Sparks sudden bursts of creativity, providing
+    the drinker with ingenious ideas for a short duration. May also result in impromptu
+    interpretive dance sessions.'
   <PotionImage>k__BackingField: {fileID: 1216025759, guid: 4d625042e291a2545a3e75078ec439b4, type: 3}
